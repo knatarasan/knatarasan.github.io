@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Wanted to share my typical days.
 
-Maybe say a some things about yourself.
+I'm Tech Co-founder | Coder | Product Builder.
 
-Or maybe what you plan to blog about.
+Wanted to share my 0 to 1 experience
