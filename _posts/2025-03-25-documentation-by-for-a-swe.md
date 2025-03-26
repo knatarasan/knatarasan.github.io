@@ -18,17 +18,18 @@ _most of us hate to create sometimes to read, but is it really worth the effort_
     - new SWE understands the module without flaw
     - Brings SWE, SME and PM in line, thus SME can validate the logic and PM can follow it
   
-### What is too much documentation
-  - comments embedded into code (for only E2E) when code expresses itself without ambiguity 
-  - Any form of repetition, i.e, same message expressed more than once . ( exceptions : expressing in more than one form) - Repetition reduces clarity , clutteredness makes the follower difficult to understand.
-
-### What is right document
+### what is right document
   - Starts with right overview and expand layers followable by audience (in other way) Followers get the context and able to follow the details, while following details they don't loose context.
   - Uses right form
   - Easy to prepare 
   - Easy to maintain
   - sync locked ( if code changes doc must be updated)
   - version preserved 
+
+### What is too much documentation
+  - comments embedded into code (for only E2E) when code expresses itself without ambiguity 
+  - Any form of repetition, i.e, same message expressed more than once . ( exceptions : expressing in more than one form) - Repetition reduces clarity , clutteredness makes the follower difficult to understand.
+
 
 ### What is wrong/unused document
   - SWE thinks he can't rely , i.e, not in sync with code
@@ -39,7 +40,6 @@ _most of us hate to create sometimes to read, but is it really worth the effort_
   - S2E (SME to SWE)
   - PM2E (PM to SWE)
   
-
 ### Form factor
   - Diagram
     - mermaid
