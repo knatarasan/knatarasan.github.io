@@ -1,3 +1,4 @@
+
 # This is a PROTOTYPE : _a must read from d.school_
 
 _why I didnt read this book, before I start building my MVP(s)_
@@ -87,7 +88,6 @@ PT5[Prototype 5: A/B implementation] --> MV
 | Will break the work at end                                              | Iterates at the end                 |
 | Artistic and Right brained.                                             | Logical and Left brained            |
 
-
 #### Product Building
 When you have assimilated all requirements from multiple Prototype you have reqreuired incredients to build the core product. It is shocking to know that prototyping is walking in opposite direction of building PRODUCT.
 
@@ -166,6 +166,5 @@ Interacting with materials is both a great way to create casual inspiration and 
 
 
 ## Notes
-
 [^1]: Proof of Concept
 [^2]: Minimum Viable Product
