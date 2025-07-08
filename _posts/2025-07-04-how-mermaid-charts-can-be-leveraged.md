@@ -1,4 +1,3 @@
-
 ```mermaid
 mindmap
   root((center))
@@ -24,11 +23,9 @@ radar-beta
 ```
 
 ```mermaid
-gantt 
+gantt
   title Product Market Fit Road map
 ```
-
-
 
 ```mermaid
 flowchart TD
@@ -42,6 +39,5 @@ journey
     prelude: 3: user,me
 
   section talking about idea
-    get feed back :5: user,me
+    get feed back :4: user,me
 ```
-
