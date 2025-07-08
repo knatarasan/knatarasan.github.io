@@ -20,9 +20,11 @@ github_username: "knatarasan"
 #########################################################################################
 theme: "minima"
 
+markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     disable: true
+    input: GFM
 
 plugins:
   - jekyll-feed
