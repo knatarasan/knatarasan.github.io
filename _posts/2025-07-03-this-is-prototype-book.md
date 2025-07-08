@@ -6,16 +6,20 @@ _why I didnt read this book, before I start building my MVP(s)_
 
 ## Overview
 
-&nbsp; &nbsp; When you are a Maker, Builder and Founder(or trying to be one), you must played around terms IDEA, CONCEPT, POC[^1], PROTOTYPE , MVP[^2] and PRODUCT. But have you ever wondered how these are related and differ. Should you really bother to differentiate these. Actually you should, at least after my experience. After successful delivery of multiple MVPs on production grade and not sure what to do next, I finally discovered some other component called USERS who eventually become CUSTOMER. Then landed on "Build what customer want ?" eventually you should be "Talking to User", "what to ask" , "how to ask" etc.
+&nbsp; &nbsp; When you are a Maker, Builder and Founder(or trying to be one), you must played around terms IDEA, CONCEPT, POC[^1], PROTOTYPE , MVP[^2] and PRODUCT. But have you ever wondered how these are related and differ. Should you really bother to differentiate these. Actually you should, at least after my experience. After successful delivery of multiple MVPs on production grade and not sure what to do next, I finally discovered some other component called USER who eventually become CUSTOMER. Then landed on "Build what customer want ?" eventually "You should be Talking to User", "what to ask" , "how to ask" etc.
 
-**PROTOTYPE** is heavily overloaded term, [SCOTT WITTHOFT](https://www.linkedin.com/in/switthoft/) dissects from numerous dimensions through this awesome life saver [This is a PROTOTYPE](https://dschool.stanford.edu/shop/this-is-a-prototype) .
 
-> #### PROTOTYPE
-> What is it as a nown, as a verb ? Where will you do ? What do you need to do ? How to do ? Who can do it ? What mindset is needed ? How long you have to do ? How many would you do ? Stakeholders involved in prototyping ? How do you test ? What would you observe ? What is the output ? What is the outcome ?
+**PROTOTYPE** is a heavily overloaded term, [SCOTT WITTHOFT](https://www.linkedin.com/in/switthoft/) dissects from numerous dimensions,
+>What is it as a nown, as a verb ? Why will you do one ? Where will you do ? What do you need to do ? How to do ? Who can do it ? What mindset is needed ? How long you have to do ? How many would you do ? Stakeholders involved in prototyping ? How do you test ? What would you observe ? What is the output ? What is the outcome ?
 
-With all these inquiries it addresses many questions and frustrations on the path of product/feature building. This process can pave awesome road map to germinate a seed of an idea and grow it to a Tree. This must read from d.school clarifies,
+ through this awesome life saver [This is a PROTOTYPE](https://dschool.stanford.edu/shop/this-is-a-prototype) .
+![image info](https://dschool.sfo3.digitaloceanspaces.com/transforms/products-publications/_768x768_crop_center-center_80_none/111626/Prototype_Shop.webp)
 
-- what is a prototype ?
+With all these inquiries it addresses many questions and frustrations on the path of product/feature building. This process can pave awesome road map to germinate a seed of an idea and grow it to a Tree. 
+
+This must read from d.school approches Prototyping in following topics,
+
+- What is a prototype ?
 - What do you need to build one ?
 - How do you build one ?
 - How do you test ?
@@ -132,15 +136,42 @@ Imagine you are in 2006 and envisioning to build an **iPhone**. You may not ask 
 
 
 ## What do I need start ?
-Whether you use tools to shape your Idea or the tools you have triggers an idea. 
-In my experience, relentless curiocity and my  skills 
-- can build production grade home page with blogs in a day with WordPress
-- can build and deploy and manage Full Stack in half sleep
-- can develop production grade content for digital marketing 
-  - Develop blogs with SEO optimized 
-  - Create active Insta content
+Whether you need your tools to shape your Idea or the tools you have triggers a new  idea ? 
 
-The author argues above are amazing raw material to start proto typing.
+**My skills as tool box**
+|                           |                                                                                                     |
+| ------------------------- | --------------------------------------------------------------------------------------------------- |
+| Build Skills              | <pre><p>1. WordPress </p><p>2. Back end: Django, AWS </p><p>3. Front End: Flutter, React </p></pre> |
+| Marketing Skills          | <pre><p>Blogging (SEO)</p><p>Instagram</p><p>Youtube</p></pre>                                      |
+| Community Building Skills | <pre><p>Discord community</p><p>WhatsAPP community</p></pre>                                        |
+| AI skills                 | <pre><p>ChatGPT</p></pre>                                                                           |
+
+> The author argues that when you are equipped with your tools and skills, when exposing to problems , could inspire new ideas, and your skills are amazing raw materials to start prototyping.
+
+**Keep it quick and dirty**
+
+Author insists two questions you should keep ask
+> Is my work too high resolution right now ?
+> 
+> What is CARDBOARD version of this I could try first ?
+
+A CARDBOARD version is quick, imperfect welcoming feedback, esp wont daunting the reviewer for not to pass comments, very quick to make changes.
+
+
+### Space for making
+Recently moved to physical books sheves from e-books. Book shelf is great for choosing books based on my mood. My subconsious picks elevating books when I'm low and challenging books when I'm high. Digital books are burried under the hood, difficult look back.
+>Interacting with materials is both a great way to create casual inspiration and a reminder that you have ready resources - SCOTT 
+
+### Building blocks for Prototyping
+> Am I designing something new ?
+> 
+> Am I designing a new version of something ?
+ 
+#### My building blocks
+&nbsp;&nbsp; Like cardboard box for physical prototype, WordPress with Figma mock up and One pager React app could be amazing building block for digital prototyping.
+#### Parts and pieces with function
+&nbsp;&nbsp During building of my previous MVPs, I've learned WordPress(self hosted)in detail, and went through a detailed Digital marketing course. These two can give me significant leap for next prototype. It inspires me to do next work.
+#### Intentionla blank
 
 
 
@@ -197,6 +228,8 @@ With this book SCOTT gives me the freedom to be imperfect,learn and practice som
 - Deliberately set a moment to destroy your prototype
 
 So far when I built MVP, it is from my ego. I want to incubate my idea as protective as I can, and want to be right badly. Any doubt on the idea hurts my ego badly. By completely ignoring the user and paying user in this eco system. And eventually failed silently without notice.  This book unshackles me from these ties, and release me from my ego and put me into reality.
+
+# SCOTT not only rebuild my mindset into prototyper also lays down an efficient process in prototyping and making.
 
 _Improvements to work on_
 
