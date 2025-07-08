@@ -1,4 +1,4 @@
-# "This is a PROTOTYPE" a must read book from d.school
+# This is a PROTOTYPE : _a must read from d.school_
 
 _why I didnt read this book, before I start building my MVP(s)_
 
@@ -8,21 +8,20 @@ _why I didnt read this book, before I start building my MVP(s)_
 
 &nbsp; &nbsp; When you are a Maker, Builder and Founder(or trying to be one), you must played around terms IDEA, CONCEPT, POC[^1], PROTOTYPE , MVP[^2] and PRODUCT. But have you ever wondered how these are related and differ. Should you really bother to differentiate these. Actually you should, at least after my experience. After successful delivery of multiple MVPs on production grade and not sure what to do next, I finally discovered some other component called USERS who eventually become CUSTOMER. Then landed on "Build what customer want ?" eventually you should be "Talking to User", "what to ask" , "how to ask" etc.
 
-**"PROTOTYPE"** is heavily overloaded term, [SCOTT WITTHOFT](https://www.linkedin.com/in/switthoft/) disects through numerous dimensions from this life saver ["This is a PROTOTYPE"](https://dschool.stanford.edu/shop/this-is-a-prototype) .
+**PROTOTYPE** is heavily overloaded term, [SCOTT WITTHOFT](https://www.linkedin.com/in/switthoft/) dissects from numerous dimensions through this awesome life saver [This is a PROTOTYPE](https://dschool.stanford.edu/shop/this-is-a-prototype) .
 
-#### PROTOTYPE:
+> #### PROTOTYPE
+> What is it as a nown, as a verb ? Where will you do ? What do you need to do ? How to do ? Who can do it ? What mindset is needed ? How long you have to do ? How many would you do ? Stakeholders involved in prototyping ? How do you test ? What would you observe ? What is the output ? What is the outcome ?
 
-What is it as a nown,as a verb ? Stakeholders involved in proto typing ? Where will you do ? What do you need to do ? How to do ? Who can do it ? What mindset is needed ? How long can you do ? How many would you do ? How do you test ? What would you observe ? What is the output ? What is the outcome ?
+With all these inquiries it addresses many questions and frustrations on the path of product/feature building. This process can pave awesome road map to germinate a seed of an idea and grow it to a Tree. This must read from d.school clarifies,
 
-With all these enquiries it addresses many questions and frustrations, and helps to germinate a seed of an idea and grow it to a Tree. This must read from d.school clarifies,
-
-- what is a prototype and what is not a prototype .
+- what is a prototype ?
 - What do you need to build one ?
 - How do you build one ?
 - How do you test ?
 - What do you get from this exercise.
 
-If I would have realized the concepts in this book earlier, I would have reached product markt fit. Instead of wandering around
+If I would have realized the concepts in this book earlier, I would have reached product market fit by this time. Instead of wandering around following things during my product building excercise,
 
 1. Build the prototype (with efficient code and best UI deployed on cutting edge CI/CD )
 2. Sales : "How to learn to sell in 12 hours ?"
@@ -41,6 +40,63 @@ If I would have realized the concepts in this book earlier, I would have reached
 
 &nbsp; &nbsp; A prototype is to learn, to explore and discover required features of a product. When you have assimilated all these requirements you have all the incredients to build the core product. It is shocking to know that while prototyping you should walk in opposite direction compare to building a PRODUCT.
 
+#### Product
+```mermaid
+---
+title: Product process
+---
+flowchart LR
+Idea --> C[Concept] 
+C --> PT[Prototype] 
+C --> POC["POC[^1]" :_for technical feasibility_]
+PT --> MVP
+POC --> MVP --> Product
+```
+#### Prototype
+
+```mermaid
+---
+title: Prototype process
+---
+flowchart LR
+DO[Define Objective] --> C[Catlog]
+C--> DE[Design and Build Prototype: ]
+DE --> TE[Test]
+TE --> RE[Reflect]
+```
+
+#### MVP
+
+```mermaid
+---
+title: MVP process
+---
+flowchart TB
+PT1[Prototype 1: Core Idea] --> MV[MVP 1]
+PT2[Prototype 2: Usability] --> MV
+PT3[Prototype 3: Customer segment B ] --> MV
+PT4[Prototype 4: Paid User behavior] --> MV
+PT5[Prototype 5: A/B implementation] --> MV
+
+```
+
+#### PRODUCT
+
+```mermaid
+---
+title: PRODUCT process
+---
+flowchart
+MV1[MVP 1] --> PR[Product]
+MV2[MVP 2] --> PR[Product]
+MV3[MVP 3] --> PR[Product]
+MV4[MVP 4] --> PR[Product]
+MV5[MVP 5] --> PR[Product]
+MV6[MVP 6] --> PR[Product]
+```
+
+
+
 | Prototyping                                                             | Product building                    |
 | ----------------------------------------------------------------------- | ----------------------------------- |
 | Prototyper                                                              | Craftsman                           |
@@ -53,15 +109,40 @@ If I would have realized the concepts in this book earlier, I would have reached
 | Will break the work at end                                              | Iterates at the end                 |
 | Artistic and Right brained.                                             | Logical and Left brained            |
 
-But why should you define **what is a PROTOTYPE**, while I am building my MVPs, kept oscilating on resolution and tool usage ( LOW vs High), I was kept adviced for lower resolution which is against my instict for perfection. Now I realize that those advices are for "Prototyping". As engineers are hardwired to write efficient, maintainable, reliable ,scalable, testable and deployable code, mostly they end up higher resolution path. But the priority even during MVP should be on iterations.
+### Why should you define your PROTOTYPE ?
+ while I am building my MVPs, kept oscilating on resolution and tool usage ( LOW vs High), I was kept adviced for lower resolution which is against my instict for perfection. Now I realize that those advices are for "Prototyping". As engineers are hardwired to write efficient, maintainable, reliable ,scalable, testable and deployable code, mostly they end up higher resolution path. But the priority even during MVP should be on iterations.
 
 Defining objectives of a prototype helps you stay withing the boundaries of available resources, time and get tested on the right group, kept observed for the feedback.
 
-Optimum approach would be prototypes are built with LOW resolution and scrapable but still gives closer to real product experience.
+Optimum approach would be prototypes are built with LOW resolution and would be scrapped at the end of the cycle, still gives closer to real product experience.
 
-## What do I need ?
+### Why should you catalog your objectives ?
+By cataloging your objectives as 
+- Functional
+- Cognitive
+- Emotional
+  
+You are prepared to carry out your prototyping in proper channels to build and test your your prototype with appropriate focus group.
 
-Whether you use tools to embody your idea or the tools you have creates or influences an idea. In my experience
+### Make it fake but do it for real
+Here author clarifies that you are not deliberately build a dirty version,instead build something fastest with least resources, bring the experience as close as to the real product.
+> Eg: For a digital product, your build production grade home page and 10 blogs using WordPress in a day. keep it mind you are going to strip it down once you are done with your experiment.
+### Make it an experience
+Imagine you are in 2006 and envisioning to build an **iPhone**. You may not ask a future user how should your future smart phone be. instead show him a **Look alike** model of an iPhone or check with an **Work alike** iPhone model.
+
+
+## What do I need start ?
+Whether you use tools to shape your Idea or the tools you have triggers an idea. 
+In my experience, relentless curiocity and my  skills 
+- can build production grade home page with blogs in a day with WordPress
+- can build and deploy and manage Full Stack in half sleep
+- can develop production grade content for digital marketing 
+  - Develop blogs with SEO optimized 
+  - Create active Insta content
+
+The author argues above are amazing raw material to start proto typing.
+
+
 
 ## What am I doing ?
 
@@ -73,17 +154,15 @@ How to keep yourself within the boundaries of
 
 ## Of course you should build what customer want
 
-&nbsp;&nbsp; But how do you know what customer wants ?
+But how do you find what customer wants ?
 
-### iPhone
-
-imagine you are in 2006 and envisioning to build an iPhone.
+Imagine you are in 2006 and envisioning to build an **iPhone**.
 
 - Would you talk with an user ? no
 - Would you prototype ? no.
 - What should you do ? Just build the iPhone.
 
-### TESLA
+##### TESLA
 
 imagine you are in 2004 and envisioning to build Tesla model 3.
 
@@ -107,6 +186,17 @@ imagine you are in 2004 and envisioning to build Tesla model 3.
 &nbsp; &nbsp; When I built my first MVP spent 95% of my time only on technical aspects and anxious when I was thinking about users or validating idea.
 
 &nbsp; &nbsp; second paragraph here clickable_extension[^1]
+
+
+## Conclusion
+
+With this book SCOTT gives me the freedom to be imperfect,learn and practice something new. When I'm learning to bake , instinctly I'm nervous to be right on the first attempt itself and not allowing any margin for error. SCOTT keep re-iterates in multiple ways
+- Build to invalidate
+- Create and tear up
+- Build to fail
+- Deliberately set a moment to destroy your prototype
+
+So far when I built MVP, it is from my ego. I want to incubate my idea as protective as I can, and want to be right badly. Any doubt on the idea hurts my ego badly. By completely ignoring the user and paying user in this eco system. And eventually failed silently without notice.  This book unshackles me from these ties, and release me from my ego and put me into reality.
 
 _Improvements to work on_
 
