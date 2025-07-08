@@ -1,6 +1,6 @@
-# This is a PROTOTYPE : _a must read from d.school_
+# This is a PROTOTYPE: _A Must Read from d.school_
 
-_why I didnt read this book, before I start building my MVP(s)_
+_Why I did not read this book before I started building my MVP(s)_
 
 ---
 
@@ -17,27 +17,27 @@ With all these queries, this awesome life saver of a book [This is a PROTOTYPE](
 
 
 This book, a must read from d.school, approaches prototyping with the following topics,
-```
+
 - What is a prototype?
 - What do you need to build one?
 - How do you build one?
 - How do you test one?
 - What do you get from this exercise.
-```
+
 
 Through this book, SCOTT gives me:
 > - The freedom to be imperfect
->  - The ability to learn and practice something new. 
+> - The ability to learn and practice something new. 
 
-When I am learning to bake, I am instinctly nervous because I want to be right on the first attempt and I do not allow myself any margin for error. SCOTT constantly reiterates this in multiple ways:
-```
+When I am learning to bake, I am instinctively nervous because I want to be right on the first attempt and I do not allow myself any margin for error. SCOTT constantly reiterates this in multiple ways:
+
 - Building to invalidate
 - Creating and tearing up
 - Deliberately setting a moment to destroy your prototype
-```
-So far when I built an MVP, I keep it close to my ego. I want to incubate my idea and protect it as much as I can, and want to be right so bad. Any doubt on my idea hurts my ego. After completely ignoring the users, I eventually failed silently without notice. This book unshackled me from these ties, and disconnects me from my ego, putting me back into reality.
 
-While I was building my MVPs, I kept oscillating on resolution (Low vs High) and tool usage (Coarse vs Fine). I was advised constantly to go for lower resolution which was against my instict for perfection. Now I realize that this advise is for **prototyping**. As engineers are hardwired to write efficient, maintainable, reliable, scalable, testable and deployable code, they default to a path of higher resolution. But the priority even during building a MVP should be on iterating.
+&nbsp;&nbsp; So far when I built an MVP, I keep it close to my ego. I want to incubate my idea and protect it as much as I can, and want to be right so bad. Any doubt on my idea hurts my ego. After completely ignoring the users, I eventually failed silently without notice. This book unshackled me from these ties, and disconnects me from my ego, putting me back into reality.
+
+While I was building my MVPs, I kept oscillating on resolution (Low vs High) and tool usage (Coarse vs Fine). I was advised constantly to go for lower resolution which was against my instinct for perfection. Now I realize that this advise is for **prototyping**. As engineers are hardwired to write efficient, maintainable, reliable, scalable, testable and deployable code, they default to a path of higher resolution. But the priority even during building a MVP should be on iterating.
 
 If I realized about the concepts in this book earlier, I would have reached product market fit by this time instead of wandering around bad practices such as: 
 
@@ -51,9 +51,6 @@ If I realized about the concepts in this book earlier, I would have reached prod
 #### Prototype Process
 
 ```mermaid
----
-title: Prototype process
----
 flowchart LR
 DO[Define Objective] --> C[Catalog]
 C--> DE[Design and Build Prototype]
@@ -64,9 +61,6 @@ TE --> RE[Reflect]
 #### Prototype to MVP
 
 ```mermaid
----
-title: MVP process
----
 flowchart TB
 PT1[Prototype 1: Core Idea] --> MV[MVP 1]
 PT2[Prototype 2: Focus on usability] --> MV
@@ -93,9 +87,6 @@ PT5[Prototype 5: A/B implementation] --> MV
 When you have assimilated all the requirements from multiple prototypes, you have all the required ingredients to build the core product. It is shocking to know that prototyping means walking in the opposite direction of building a **product**.
 
 ```mermaid
----
-title: Product process
----
 flowchart LR
 Idea --> C[Concept] 
 C --> PT[Prototype] 
@@ -153,9 +144,9 @@ A cardboard version is quick, imperfect, welcomes feedback, will not make the re
 
 #### Space for making
 &nbsp;&nbsp; Recently moved to physical books shelves from e-books. Book shelves are great for choosing books based on my mood. My subconsious picks elevating books when my mood is low and challenging books when my mood is high. Digital books are buried under the hood and are difficult to look back on.
-```
-Interacting with materials is both a great way to create casual inspiration and a reminder that you have ready resources - SCOTT 
-```
+
+>Interacting with materials is both a great way to create casual inspiration and a reminder that you have ready resources - SCOTT 
+
 
 #### Building blocks for Prototyping
 > - Am I designing something new? 
