@@ -59,7 +59,6 @@ DE --> TE[Test]
 TE --> RE[Reflect]
 </div>
 
-
 #### Prototype to MVP
 
 ```mermaid
