@@ -50,7 +50,7 @@ If I realized about the concepts in this book earlier, I would have reached prod
 
 #### Prototype Process
 
-```html
+
 <div class="mermaid">
 flowchart LR
 DO[Define Objective] --> C[Catalog]
@@ -58,7 +58,7 @@ C--> DE[Design and Build Prototype]
 DE --> TE[Test]
 TE --> RE[Reflect]
 </div>
-```
+
 
 #### Prototype to MVP
 
