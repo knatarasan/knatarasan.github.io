@@ -45,6 +45,3 @@ journey
     get feed back :5: user,me
 ```
 
-
-
-
