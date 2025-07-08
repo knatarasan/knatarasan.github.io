@@ -57,7 +57,7 @@ DO[Define Objective] --> C[Catalog]
 C--> DE[Design and Build Prototype]
 DE --> TE[Test]
 TE --> RE[Reflect]
-</pre>
+</div>
 ```
 
 #### Prototype to MVP
