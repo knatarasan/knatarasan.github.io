@@ -4,8 +4,6 @@ _Why I did not read this book before I started building my MVP(s)_
 
 ---
 
-## Overview
-
 &nbsp; &nbsp; When you are a maker, builder or a founder (perhaps trying to be one), you must have played around these terms IDEA, CONCEPT, POC[^1], PROTOTYPE, MVP[^2] and PRODUCT. But have you ever wondered how these are related and also differ. Should you really bother to differentiate these. I believe you should, at least after my experience. After successful delivery of multiple MVPs at production grade and not being sure what the next steps are, I finally discovered some other component called a USER who eventually might become a CUSTOMER. Then landed on "Build what customer want?" then "You should be Talking to User", "what to ask", "how to ask" etc.
 
 **PROTOTYPE** is a heavily overloaded term, [SCOTT WITTHOFT](https://www.linkedin.com/in/switthoft/) dissects this from numerous dimensions,
