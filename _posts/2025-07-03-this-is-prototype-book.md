@@ -93,7 +93,7 @@ When you have assimilated all the requirements from multiple prototypes, you hav
 flowchart LR
 Idea --> C[Concept]
 C --> PT[Prototype]
-C --> POC["POC[^1]": _For Technical Feasibility_]
+C --> POC[POC: _For Technical Feasibility_]
 PT --> MVP[MVP 1, MVP 2 .. MVP n]
 POC --> MVP --> Product
 </div>
