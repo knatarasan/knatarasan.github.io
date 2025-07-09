@@ -135,12 +135,12 @@ Do you need your tools to shape your idea or do the tools you have trigger a new
 
 #### My skills as tool box
 
-|                           |                                                                                                |
-| ------------------------- | ---------------------------------------------------------------------------------------------- |
-| Building Skills           | <ul><li>WordPress</li> <li>Back End: Django, AWS </li><li>Front End: Flutter, React </li></ul> |
-| Marketing Skills          | <ul><li>Blogging (SEO)</li> <li>Instagram</li> <li>Youtube </li></ul>                          |
-| Community Building Skills | <ul><li>Discord community</li> <li>WhatsAPP community </li></ul>                               |
-| AI Skills                 | <ul><li>ChatGPT </li></ul>                                                                     |
+|                           |                                                                  |
+| ------------------------- | ---------------------------------------------------------------- |
+| Building Skills           | WordPress<br>Back End: Django, AWS <br>Front End: Flutter, React |
+| Marketing Skills          | Blogging (SEO)<br>Instagram<br>Youtube                           |
+| Community Building Skills | Discord community<br>WhatsAPP community                          |
+| AI Skills                 | ChatGPT                                                          |
 
 &nbsp;&nbsp; The author argues that when you are equipped with your tools and skills and exposed to a problem, you are inspired to form a new idea and your skills are amazing raw materials to start prototyping. He also insists two questions you should keep asking yourself:
 
