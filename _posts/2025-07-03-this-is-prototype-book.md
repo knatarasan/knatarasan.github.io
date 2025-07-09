@@ -170,4 +170,3 @@ With this amazing piece, SCOTT not only rebuilt my mindset into a prototyper, he
 
 [^1]: Proof of Concept
 [^2]: Minimum Viable Product
-`
