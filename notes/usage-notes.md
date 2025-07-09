@@ -1,1 +1,1 @@
-- To enable previous and forward remove comments `{%- comment -%}` from navlinks.html file
+- To enable previous and forward remove comments `%- comment -%` from navlinks.html file
