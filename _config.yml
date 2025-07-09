@@ -18,7 +18,8 @@ github_username: "knatarasan"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-theme: "minima"
+# theme: "architect"
+remote_theme: pages-themes/architect@v0.2.0
 
 markdown: kramdown
 kramdown:
@@ -29,6 +30,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 titles_from_headings:
   strip_title: true
