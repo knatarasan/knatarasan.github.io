@@ -43,3 +43,16 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+.page-header {
+  padding: 1rem 2rem;
+  /* Adjust as needed */
+  min-height: 200px;
+  /* Optional: force a minimum height */
+}
+
+/* Optional: Adjust the font or spacing inside the banner */
+.page-header h1,
+.page-header h2 {
+  margin: 0.5rem 0;
+}
