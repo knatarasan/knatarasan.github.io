@@ -56,3 +56,14 @@ hr {
 .page-header h2 {
   margin: 0.5rem 0;
 }
+
+header h1 {
+  width: 540px;
+  margin-top: 0;
+  margin-bottom: 0.2em;
+  font-size: 38px;
+  font-weight: normal;
+  line-height: 1;
+  color: #fff;
+  letter-spacing: -1px
+}
