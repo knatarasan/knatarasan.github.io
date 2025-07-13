@@ -26,7 +26,7 @@ Start with dramatic low moments in your start up journey and end with high
 Being not conscious about your audience may lead you to go deeper than what is required as well shallower ,where audience struggling to cope up.
 If your article to be understood by all , use generic examples, so that your childhood friend in rural could understand.
 ### Communicate your mood
-When you are speaking to other person , you pass your interst, doubt , happy , anger etc. How can you bring these emotions when you write ?
+When you are speaking to other person , you pass your interst, doubt , happy , anger etc through your voice modulation. How can you bring these emotions when you write ?
 ### Show, Don't Tell
 When you begin by showing the environment you get the audience into the ambience instantly.
 
