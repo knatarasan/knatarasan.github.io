@@ -2,7 +2,7 @@
 
 _Why I did not read this book before I started building my MVP(s)_
 
----
+![image info]({{ site.image_base }}/Prototype_Shop.webp)
 
 &nbsp; &nbsp; When you are a maker, builder or a founder (perhaps trying to be one), you must have played around these terms IDEA, CONCEPT, POC[^1], PROTOTYPE, MVP[^2] and PRODUCT. But have you ever wondered how these are related and also differ. Should you really bother to differentiate these. I believe you should, at least after my experience. After successful delivery of multiple MVPs at production grade and not being sure what the next steps are, I finally discovered some other component called a USER who eventually might become a CUSTOMER. Then landed on "Build what customer want?" then "You should be Talking to User", "what to ask", "how to ask" etc.
 
@@ -11,7 +11,6 @@ _Why I did not read this book before I started building my MVP(s)_
 > What is a prototype as a noun? &nbsp; &nbsp;What is it as a verb?&nbsp; &nbsp; Why should you try one? &nbsp; &nbsp;Where should you do it? &nbsp; &nbsp;What do you need to do? &nbsp; &nbsp;How do you do it? &nbsp; &nbsp; Who can do it? &nbsp; &nbsp;What mindset is needed? &nbsp; &nbsp;How long do you have to do it? &nbsp; &nbsp;How many should you do?&nbsp; &nbsp; What stakeholders should be involved in prototyping? &nbsp; &nbsp;How do you test it? &nbsp; &nbsp;What would you observe from it? &nbsp; &nbsp;What is the output from the prototype? &nbsp; &nbsp;What is the outcome from the prototype?
 
 With all these queries, this awesome life saver of a book [This is a PROTOTYPE](https://dschool.stanford.edu/shop/this-is-a-prototype) addresses many questions and frustrations on the path of product/feature building. This process can pave an road map to germinate a seed of an idea and grow it into a long-lasting tree.
-![image info](https://dschool.sfo3.digitaloceanspaces.com/transforms/products-publications/_768x768_crop_center-center_80_none/111626/Prototype_Shop.webp)
 
 This book, a must read from d.school, approaches prototyping with the following topics,
 

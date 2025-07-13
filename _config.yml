@@ -44,3 +44,5 @@ defaults:
       type: post
     values:
       tags: Other
+
+image_base: /assets/images
