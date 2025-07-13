@@ -1,15 +1,21 @@
+---
+layout: post
+title: "Django vs Node "
+tags: [tech]
+---
+
 # Django vs Node js (Express js ) 
 ## From a developer's perspective 
 
 
-| Feature  | Django <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" width="25">    | Node  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" width="25">|
-|---       |---        |---    |
-|Lang       | python   | JS ES 7   |
-| Execution   | Synchronus   | Asynchronous   |
-| ORM       | Django model SQL   | Sequelize  NoSQL & SQL |
-| Strucure       | provided   | Need to build |
-| Admin module       | provided   | Need to build |
-| Roles       | provided   | Need to build |
+| Feature      | Django <img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain.svg" width="25"> | Node  <img src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg" width="25"> |
+| ------------ | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Lang         | python                                                                                                      | JS ES 7                                                                                                       |
+| Execution    | Synchronus                                                                                                  | Asynchronous                                                                                                  |
+| ORM          | Django model SQL                                                                                            | Sequelize  NoSQL & SQL                                                                                        |
+| Strucure     | provided                                                                                                    | Need to build                                                                                                 |
+| Admin module | provided                                                                                                    | Need to build                                                                                                 |
+| Roles        | provided                                                                                                    | Need to build                                                                                                 |
 
 # Django vs Node.js: A Detailed Guide for Building REST APIs
 
