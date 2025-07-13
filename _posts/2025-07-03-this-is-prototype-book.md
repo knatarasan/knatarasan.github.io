@@ -1,3 +1,11 @@
+---
+layout: post
+title: "This is a PROTOTYPE: A Must Read from d.school"
+date: 2025-07-03
+tags: [tech]
+---
+
+
 # This is a PROTOTYPE: _A Must Read from d.school_
 
 _Why I did not read this book before I started building my MVP(s)_
