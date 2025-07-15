@@ -35,6 +35,8 @@ My friend suggested this excercise,
  - 5 things : you see
  - 4 things : you hear
  - 3 things : you feel
+ - 2 things : you smell
+ - 1 thing  : you taste
 
 You may consider this course ["How to Master the 'Show,Don't Tell Rule](https://reedsy.com/learning/courses/writing/show-dont-tell)
 
