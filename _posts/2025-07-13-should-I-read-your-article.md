@@ -38,10 +38,11 @@ My friend suggested this excercise,
  - 2 things : you smell
  - 1 thing  : you taste
 
-You may consider this course ["How to Master the 'Show,Don't Tell Rule](https://reedsy.com/learning/courses/writing/show-dont-tell)
+##### You may consider following resources
 
-
-
+- A nice course ["How to Master the 'Show,Don't Tell Rule](https://reedsy.com/learning/courses/writing/show-dont-tell)
+- [Tips and example](https://blog.reedsy.com/show-dont-tell/) from reedsy.com
+- [“Show, Don’t Tell” in Creative Writing](https://writers.com/show-dont-tell-writing) from writers.com
 
 
 

@@ -1,8 +1,8 @@
 Wanted to share my typical days.
 
-I'm Tech Co-founder | Coder | Product Builder.
+I'm Tech Co-founder | Coder | Product Builder. <a href="{{ site.url }}/archive.html">-</a>
 
-Wanted to share my 0 to 1 experience
+Wanted to share my 0 to 1 experience 
 
 <div>
   {% for tag in site.tags %}
