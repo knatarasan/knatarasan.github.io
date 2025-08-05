@@ -1,9 +1,16 @@
-Wanted to share my typical days.
+#### myself 
+An Engineer , Coder , Builder , Learner 
 
-I'm Tech Co-founder | Coder | Product Builder. <a href="{{ site.url }}/archive.html">-</a>
+#### to contact
+- Kannappan Natarasan
+- kannappan.natarasan@gmail.com
+- living in Fremont,CA
 
-Wanted to share my 0 to 1 experience 
+#### my projects
 
+- [if AWS is easier to navigate](https://github.com/knatarasan/cloudskin)
+- [stock advisor affordable](https://github.com/knatarasan/zenkove)
+#### from my thoughts,
 <div>
   {% for tag in site.tags %}
     {% unless tag[0] == "wip" %}
@@ -20,3 +27,5 @@ Wanted to share my 0 to 1 experience
     {% endunless %}
   {% endfor %}
 </div>
+
+<a href="{{ site.url }}/archive.html">-</a>

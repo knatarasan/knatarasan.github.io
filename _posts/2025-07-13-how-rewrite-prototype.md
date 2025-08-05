@@ -4,7 +4,7 @@ title: "How to write your experience"
 tags: [wip]
 ---
 
-
+As I can feel my fourth MVP couldn't be launched, puzzled towards ever lasting learning of start up building. Started reading the d.school book "This is Prototype". Now I realized that I was walking on Engineer's path.  Build (a thorough product - like an engineering marvel) and look for what to do ? 
 
 # "How to write your experience"
 {% if page.tags contains "wip" %}
