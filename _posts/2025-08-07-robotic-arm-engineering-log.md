@@ -16,28 +16,35 @@ tags: [wip]
 - Spoken with Mukilan by deciding to start from robotic arm
 ### 02AUG2025 
 - seriously started 
-### software
+### 03AUG2025
+
+#### software
 - stack 
   - started with ubuntu 22.04 | ros2 humble - rviz2 - moveit2 - gazebo - installed on lenova pc all up and working until moveit2
   - Moved to ubuntu 24.04 | ros2 jozzy (to go ubuntu 24.04, since rpi 5 needs 24.04)
   - migrated from ubuntu 22.04 to 24.04
-### hardware
+#### hardware
 Buy (costs around 25K ) vs build ( possible to build below 7k)
-- #### Fabrication
+- ##### Fabrication
   - 3D printing (Tried  few prints from community library , staff was very helpful)
     - printers : FDM vs SLA
     - materials 
       - PLA - versatile
       - PETG - intermitant 
       - Nylon - strong
-- #### Servo motors
-  <p>They are heart of a robotic arm</p>
-  08AUG2025 to 11AUG : Dynamixel
 
-#### 01AUG2025
-- Discussed with experts
-#### 02AUG2025
-- started actively on 
+### 08AUG2025 
+#### SERVO MOTORS
+- They are heart of a robotic arm
+- Dynamixel is the leading supplier of stronger precise robotic arm
+
+### 11AUG2025
+
+
+- #### Servo motors
+
+
+
 
 #### 14AUG2025
 - SOLDERING
@@ -56,3 +63,4 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 #### 16AUG2025
 - Tried with Nylon and failed print
+- Studied papers on imimation Learning and ALOHA 
