@@ -48,7 +48,8 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 #### 14AUG2025
 - SOLDERING
-  - After few mistakes, followed a nice tutorial and got hold of it.
+  - After few mistakes, followed a nice tutorial and got hold of it.![alt text](../assets/images/2025-07-06/solder_practice_1.jpeg)
+  - ![alt text](../assets/images/2025-07-06/solder_INA3221.jpeg)
   - Lessons learnt :  
     - Soldering is mini welding you melt metal and pour very small in quantity though. Use safety glass , there is a possibility of molten metal spill somewhere. Use right soldering tip. 
     - Don’t keep lead on soldering iron,instead heat the wire to be soldered and keep lead there and  let it to melt and nicely settle.
@@ -64,3 +65,6 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 #### 16AUG2025
 - Tried with Nylon and failed print
 - Studied papers on imimation Learning and ALOHA 
+
+#### 18AUG2025
+- As printing completed for v1, need different screws explored different screw types, needed m3 12mm and few shaft screws. Found Dave hardware has all the required screws.
