@@ -48,8 +48,8 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 #### 14AUG2025
 - SOLDERING
-  - After few mistakes, followed a nice tutorial and got hold of it.![alt text](../assets/images/2025-07-06/solder_practice_1.jpeg)
-  - ![alt text](../assets/images/2025-07-06/solder_INA3221.jpeg)
+  - After few mistakes, followed a nice tutorial and got hold of it.![alt text]({{ site.image_base }}/2025-07-06/solder_practice_1.jpeg)
+  - ![image info]({{ site.image_base }}/2025-07-06/solder_INA3221.jpeg)
   - Lessons learnt :  
     - Soldering is mini welding you melt metal and pour very small in quantity though. Use safety glass , there is a possibility of molten metal spill somewhere. Use right soldering tip. 
     - Don’t keep lead on soldering iron,instead heat the wire to be soldered and keep lead there and  let it to melt and nicely settle.
@@ -68,3 +68,9 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 #### 18AUG2025
 - As printing completed for v1, need different screws explored different screw types, needed m3 12mm and few shaft screws. Found Dave hardware has all the required screws.
+
+#### 19AUG2025
+- Got right screws, completed clipper assembly and tested.
+  - Has to configure clipper servo between 90 to 0 degree. ( controlled from the code)
+  - Yet the servo takes .35A when it is at 90 deg position. ( has to be troubleshoot)
+- Assembled arm and wrist servo screwed in after little hack on servo horn

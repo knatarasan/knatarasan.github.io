@@ -3,3 +3,10 @@
 
 - #### to run local site
 `bundle exec jekyll serve`
+
+- #### to check size
+ `git count-objects -vH`
+
+
+
+
