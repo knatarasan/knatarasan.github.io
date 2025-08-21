@@ -43,9 +43,6 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 - #### Servo motors
 
-
-
-
 #### 14AUG2025
 - SOLDERING
   - After few mistakes, followed a nice tutorial and got hold of it.![alt text]({{ site.image_base }}/2025-07-06/solder_practice_1.jpeg)
@@ -58,6 +55,7 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - Learnt internals of a potentiometer by burning it, was playing around with a circuit , 6v -> 10K (var res ) --> motor (6v rated) --> .3A
     - When I increased resistance to 4K , current is bellow 0.05A , so tried increasing volt to 10V then 20V. still current is low, now reduced res to below 1K , saw fume from var res.
   - Got an idea between current and Torque on Motor
+  - - ![image info]({{site.image_base}}/2025-07-06/servo-motor-paly-around.jpeg)
 
 #### 15AUG2025
 - Set up 3D Prusa core get the sample printing done
@@ -67,10 +65,14 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 - Studied papers on imimation Learning and ALOHA 
 
 #### 18AUG2025
-- As printing completed for v1, need different screws explored different screw types, needed m3 12mm and few shaft screws. Found Dave hardware has all the required screws.
+- 3D printing completed for v1.
+- ![image info]({{site.image_base}}/2025-07-06/3d-printed-arm-parts.jpeg)
+- Need different screws explored different screw types, needed m3 12mm and few shaft screws. Found Dave hardware has all the required screws.
 
 #### 19AUG2025
 - Got right screws, completed clipper assembly and tested.
   - Has to configure clipper servo between 90 to 0 degree. ( controlled from the code)
   - Yet the servo takes .35A when it is at 90 deg position. ( has to be troubleshoot)
 - Assembled arm and wrist servo screwed in after little hack on servo horn
+#### 20AUG2025
+- Tried testing ABS , not able to raise chamber temp beyond 35, later found to close ventilation lid
