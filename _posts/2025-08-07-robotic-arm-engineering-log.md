@@ -75,4 +75,17 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - Yet the servo takes .35A when it is at 90 deg position. ( has to be troubleshoot)
 - Assembled arm and wrist servo screwed in after little hack on servo horn
 #### 20AUG2025
-- Tried testing ABS , not able to raise chamber temp beyond 35, later found to close ventilation lid
+- Tried test print on ABS , not able to raise chamber temp beyond 35, later found to close ventilation lid
+#### 21AUG2025
+- Prepared Lenova T14s on Ubuntu and tried installing ROS2
+- Discussed with mechanical engg friends about  Solidworks and Pro-E, spoken with CAD designers
+#### 22AUG2025
+- Successfully printed ABS, previous failure print is due to in sufficient chamber temperature
+- Performed various tests
+
+| Material | Break Test | Falme test | Printability |
+| -------- | ---------- | ---------- | ------------ |
+| PLA      | Weak       | Medium     | Easy         |
+| ABS      | Medium     | Weak       | Medium       |
+| Nylon    | Strong     | Strong     | hard         |
+
