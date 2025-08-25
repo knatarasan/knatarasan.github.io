@@ -89,3 +89,17 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 | ABS      | Medium     | Weak       | Medium       |
 | Nylon    | Strong     | Strong     | hard         |
 
+#### 23AUG2025
+- Was playing around CAD on fusion 360
+
+#### 24AUG2025
+- Assembling of Arm v1 (end to end)
+  - was teaching how to solder to my buddy
+  - Mechanical assembly became similar, attach servo horn add screws
+  - Managing cables between arduino and servos are a bit tricky.
+  - Schematic diagram of Servos with Arduino was useful
+  - 5V supply receiver was easy to inserted in
+  - Arduino can be screwed in easily.
+  - A junction point to connect 5 diff servos was a bit tricky on soldering.
+  - Like 70% of assembling work completed, deffinitely got good idea on ARM assembly.
+
