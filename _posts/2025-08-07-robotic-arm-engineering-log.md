@@ -76,6 +76,11 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 - Assembled arm and wrist servo screwed in after little hack on servo horn
 #### 20AUG2025
 - Tried test print on ABS , not able to raise chamber temp beyond 35, later found to close ventilation lid
+- Experimented diff material on flame tests
+- <video width="320" height="240" controls>
+  <source src="[video.mov](https://www.youtube.com/shorts/xclQgvrHxgs)" type="video/mp4">
+</video>
+
 #### 21AUG2025
 - Prepared Lenova T14s on Ubuntu and tried installing ROS2
 - Discussed with mechanical engg friends about  Solidworks and Pro-E, spoken with CAD designers
@@ -106,3 +111,6 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 #### 25AUG2025
   - Done with the complex multi servo board soldering ![img](https://roboticchef.github.io/assets/images/2025-08-26/multi_servo_junction_1.jpg )
   - Tried a smoke test on integrated hardware
+
+### 26AUG2025
+  - Got the blog set up.
