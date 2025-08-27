@@ -77,9 +77,10 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 #### 20AUG2025
 - Tried test print on ABS , not able to raise chamber temp beyond 35, later found to close ventilation lid
 - Experimented diff material on flame tests
-- <video width="320" height="240" controls>
-  <source src="[video.mov](https://www.youtube.com/shorts/xclQgvrHxgs)" type="video/mp4">
-</video>
+ <iframe width="320" height="240"
+   src="https://www.youtube.com/embed/xclQgvrHxgs" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
 
 #### 21AUG2025
 - Prepared Lenova T14s on Ubuntu and tried installing ROS2
