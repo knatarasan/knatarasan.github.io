@@ -103,3 +103,6 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - A junction point to connect 5 diff servos was a bit tricky on soldering.
   - Like 70% of assembling work completed, deffinitely got good idea on ARM assembly.
 
+#### 25AUG2025
+  - Done with the complex multi servo board soldering ![img](https://roboticchef.github.io/assets/images/2025-08-26/multi_servo_junction_1.jpg )
+  - Tried a smoke test on integrated hardware
