@@ -115,3 +115,11 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 ### 26AUG2025
   - Got the blog set up.
+
+### 27AGU2025
+  - Full assembly had been completed, took little over time as I try re-soldering a broken connection with thin wire (not a best practice soldering) 
+  - Felt exicted after the test, the arm was made from STLs --> print and fully assembled.
+<iframe width="420" height="340"
+   src="https://youtube.com/shorts/hDkxqsMFUVY" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
