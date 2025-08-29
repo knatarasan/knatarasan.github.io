@@ -119,7 +119,21 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 ### 27AGU2025
   - Full assembly had been completed, took little over time as I try re-soldering a broken connection with thin wire (not a best practice soldering) 
   - Felt exicted after the test, the arm was made from STLs --> print and fully assembled.
-<iframe width="420" height="340"
-   src="https://youtube.com/shorts/hDkxqsMFUVY" title="youtube video" frameborder="0"
+
+### 28AUG2025
+  - Printed parts for franka style arm and received supplies on Dynamixel version
+  - Wired components of Dyanamixel motor
+    <div class="mermaid">
+    flowchart LR
+    Ub[Ubuntu] --> U2[U2D2]
+    U2 --> X28[XL-330-M288T]
+    PW[Power Hub 5V] --> U2
+    </div>
+    - Tested using Dynamixel Wizard
+  <iframe width="420" height="340"
+   src="https://youtube.com/embed/Zqv_ZWRVS3g" title="youtube video" frameborder="0"
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
 </iframe>
+
+
+
