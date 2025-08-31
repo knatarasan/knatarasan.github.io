@@ -136,4 +136,8 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 </iframe>
 
 
+### 29AUG2025
+  - Compared all types of  Dynamixel motors , realized predominant diff between XL ( low cost ) and XM ( medium range) motors are only torque. So thearitically once you build an arm with XL motors with same set up with minimal config change you should able to move to XM series.
 
+### 30AUG2025
+ - Trying to understand Force, Torque and its relations. 
