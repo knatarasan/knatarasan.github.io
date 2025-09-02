@@ -137,7 +137,20 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 
 ### 29AUG2025
-  - Compared all types of  Dynamixel motors , realized predominant diff between XL ( low cost ) and XM ( medium range) motors are only torque. So thearitically once you build an arm with XL motors with same set up with minimal config change you should able to move to XM series.
+  - Compared all types of  Dynamixel motors ([Check this link](https://www.generationrobots.com/blog/en/how-to-choose-the-right-dynamixel-servomotor/?srsltid=AfmBOoreEwQXZ8Bzst8QaPHZIeNRUmCoAXRwl590S7pWJS68PKojT1sB)), realized predominant diff between XL ( low cost ) and XM ( medium range) motors are only torque. So thearitically once you build an arm with XL motors with same set up with minimal config change you should able to move to XM series.
+  
 
 ### 30AUG2025
  - Trying to understand Force, Torque and its relations. 
+  ![image info]({{ site.image_base }}/2025-07-06/dynamixel-actuator-servo-schematics.jpg)
+
+### 31AUG2025
+  - Explored wiring for Daisy chaining in Dynamixel , [this link](https://www.robotis.us/robotis-ir-pr-blog/the-ultimate-dynamixel-daisy-chaining-guide/?srsltid=AfmBOorReUg9bSZIWDpdDNwT5AzACWsFEexM5VvXoQpHtAZUiL4PoQWF) gave nice pointers for configuration
+
+### 01SEP2025
+  - Deep dive on Torque, explored how the "REQUIRED TORQUE" changes with distance from neutral axis. When you imagine a roatatable shaft from its cross section (a circle), the center is neutral axis. The REQUIRED TORQUE keep increases when you move away from the center.
+    - Torque = r . F
+      - i.e Torques is multiply of r (distance from fulcrum ) and Force ( can be imagined in lb)
+  - With these explorations envisioning a robotic arm with servo motors with reducing torque from the base. Planning to explore further.
+  - Figured out how to assemble and build a basic Franka style arm with the motors in hand.
+  - Refer this [Dynamixel link](https://emanual.robotis.com/docs/en/dxl/x/) for a consolidated list
