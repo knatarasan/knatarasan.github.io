@@ -154,3 +154,11 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - With these explorations envisioning a robotic arm with servo motors with reducing torque from the base. Planning to explore further.
   - Figured out how to assemble and build a basic Franka style arm with the motors in hand.
   - Refer this [Dynamixel link](https://emanual.robotis.com/docs/en/dxl/x/) for a consolidated list
+
+### 02SEP2025
+   - Came across  servo motor [DM-J4340-2EC](https://store.foxtech.com/dm-j4340-2ec-mit-driven-brushless-servo-joint-motor-with-dual-encoders-amp-gear-reduction-for-robotic-arms-actuator-for-robot/?srsltid=AfmBOoq-see8KABhJxabKHFVfpFDy2gF2OJPWsNjj4uitEuOAoP3EYNQ)
+     - Advantages
+       - MIT mode 
+       - Better Torque/price
+     - Trade offs
+       - higher weight 362g ( equivalent Dynamixel XM540-W270 is less than half 165G)
