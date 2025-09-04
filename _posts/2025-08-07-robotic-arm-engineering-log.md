@@ -162,3 +162,13 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
        - Better Torque/price
      - Trade offs
        - higher weight 362g ( equivalent Dynamixel XM540-W270 is less than half 165G)
+### 04SEP2025
+  - Completed v1 , this is an arm used to manipulate actual arm
+    - 3D printed from STL files
+    - Built with smart servo, leveraging those servo as actuator , to collect real time positions
+    - Was working with my buddy, exciting experience to assemble something from non concrete information. Felt advantage of team work , when a team member confused other member pushes vice versa.
+  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/J-qa4oViJmo" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
+    
