@@ -172,3 +172,25 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
 </iframe>
     
+### 05SEP2025
+  - Completed assembly and tested on imitation arm, both on Dynamixel wizard and dynamixel SDK
+
+  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/L-wOsjT9lCU" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
+
+  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/Eb8fZoJwJi4" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
+  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/Uic253gXtIs" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/6CyXd-URBRs" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/xh3uJyBTfNI" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
