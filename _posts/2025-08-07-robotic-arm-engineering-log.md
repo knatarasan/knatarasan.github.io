@@ -194,3 +194,9 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
    src="https://youtube.com/embed/xh3uJyBTfNI" title="youtube video" frameborder="0"
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
 </iframe>
+
+### 06SEP2025
+  - Tried testing by using v2 as leader arm and v1 as base arm
+  - Mapped servos from v2 into servos in v1, used dynamixel (python) sdk with python sdk serial communication
+  - communicated with python dynamixel sdk and serial communication
+  - v2 worked fine but v1's range differ from v2's range or reach of individual joints
