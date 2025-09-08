@@ -204,7 +204,7 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 ### 07SEP2025
   - Tested collaboration between our v1(very base version with hobby servos) and v2(better version with smart servos)
   - The motors in v1 are not configured in order. But following video is a very early level test
-  - </iframe>  <iframe name="imitation_arm" width="420" height="340"
+  - <iframe name="imitation_arm" width="420" height="340"
    src="https://youtube.com/embed/nT4p38Cx1ww" title="youtube video" frameborder="0"
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
 </iframe>
