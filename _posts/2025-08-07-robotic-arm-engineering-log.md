@@ -200,3 +200,12 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - Mapped servos from v2 into servos in v1, used dynamixel (python) sdk with python sdk serial communication
   - communicated with python dynamixel sdk and serial communication
   - v2 worked fine but v1's range differ from v2's range or reach of individual joints
+
+### 07SEP2025
+  - Tested collaboration between our v1(very base version with hobby servos) and v2(better version with smart servos)
+  - The motors in v1 are not configured in order. But following video is a very early level test
+  - </iframe>  <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/nT4p38Cx1ww" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+</iframe>
+
