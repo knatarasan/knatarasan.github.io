@@ -209,3 +209,39 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
 </iframe>
 
+### 08SEP2025
+  - wanted to test ability of ina3221 with the help of 20x4 LCD connected with arduino
+  - Following is the circuit
+  - <div class="mermaid">
+    flowchart LR
+    subgraph arduino_nano
+    A4
+    A5
+    a-Gnd
+    end
+
+    subgraph ina3221
+      ch1-vn+
+      ch1-vn-
+
+      sda
+      scl
+    end
+    subgraph psu
+      5v
+      p-Gnd
+    end
+    subgraph potentio
+      wiper
+      terminal
+    end
+    5v --> ch1-vn+
+    ch1-vn- --> wiper
+    terminal --> p-Gnd
+    A4 --> sda
+    A5 --> scl
+    a-Gnd --> p-Gnd
+  </div>
+  - The challenge was firmware code dosn't compile to detect ina3221
+
+

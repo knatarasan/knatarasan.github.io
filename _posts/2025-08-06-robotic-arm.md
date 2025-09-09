@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Robotic Arm"
+title: "Robotic Arm-Initial"
 tags: [wip]
 ---
 
