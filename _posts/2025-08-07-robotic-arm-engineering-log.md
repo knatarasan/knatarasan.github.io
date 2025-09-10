@@ -210,38 +210,53 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 </iframe>
 
 ### 08SEP2025
-  - wanted to test ability of ina3221 with the help of 20x4 LCD connected with arduino
+  - wanted to test ability of ina3221 to track amp and volt ratings with the help of 20x4 LCD connected with arduino
   - Following is the circuit
   - <div class="mermaid">
     flowchart LR
     subgraph arduino_nano
-    A4
-    A5
-    a-Gnd
+    a-sda[SDA]
+    a-scl[SCL]
+    a-Gnd[Gnd]
     end
 
     subgraph ina3221
       ch1-vn+
       ch1-vn-
-
-      sda
-      scl
+      i-sda[SDA]
+      i-scl[SCL]
     end
     subgraph psu
-      5v
-      p-Gnd
+      p-5v
+      p-Gnd[Gnd]
     end
     subgraph potentio
       wiper
       terminal
     end
-    5v --> ch1-vn+
+    subgraph lcd
+      l-vcc[Vcc]
+      l-Gnd[Gnd]
+      l-sda[SDA]
+      l-scl[SCL]
+    end
+    a-sda --> l-sda
+    a-scl --> l-scl
+    p-5v --> l-vcc
+    p-Gnd --> l-Gnd
+    p-5v --> ch1-vn+
     ch1-vn- --> wiper
     terminal --> p-Gnd
-    A4 --> sda
-    A5 --> scl
+    a-sda --> i-sda
+    a-scl --> i-scl
     a-Gnd --> p-Gnd
   </div>
   - The challenge was firmware code dosn't compile to detect ina3221
 
 
+### 09SEP2025
+- Successful in using ina3221 to measure amps and volt and display it on an LCD.
+- <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/cWAs4E2OSwI" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+  </iframe>
