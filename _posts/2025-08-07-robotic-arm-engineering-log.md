@@ -260,3 +260,10 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
    src="https://youtube.com/embed/cWAs4E2OSwI" title="youtube video" frameborder="0"
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
   </iframe>
+
+### 10SEP2025
+  - Playing around how to do wiring DM-4340-2EC using CAN
+    - Nice users manual for [DM-4340-2EC](https://cdn.shopify.com/s/files/1/0673/6848/5000/files/DM-J4340-2EC_User_Manual.pdf?v=1756883905)
+    - Othere details on [DM-4340-2EC](https://aifitlab.com/products/damiao-dm-j4340-2ec-servo-motor?srsltid=AfmBOoo0RnCpxcRzuVCB48JDn78vjst5GNOvpGMeqargmYMbc2B_Cy1u)
+  - Playing Fusion 360 , seems it is learnable.
+  
