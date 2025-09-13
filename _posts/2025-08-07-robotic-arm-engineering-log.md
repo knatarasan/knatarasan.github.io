@@ -267,3 +267,17 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
     - Othere details on [DM-4340-2EC](https://aifitlab.com/products/damiao-dm-j4340-2ec-servo-motor?srsltid=AfmBOoo0RnCpxcRzuVCB48JDn78vjst5GNOvpGMeqargmYMbc2B_Cy1u)
   - Playing Fusion 360 , seems it is learnable.
   
+
+### 11SEP2025
+  - Played around Fusion 360 for 3D modeling
+  - <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/pRtcm9nIy1U" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+  </iframe>
+
+### 11SEP2025
+  - Practiced futher for 3D modeling
+  - <iframe name="imitation_arm" width="420" height="340"
+   src="https://youtube.com/embed/5alonOSR5mc" title="youtube video" frameborder="0"
+   allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
+  </iframe>
