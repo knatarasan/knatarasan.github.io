@@ -275,9 +275,21 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
   </iframe>
 
-### 11SEP2025
+### 12SEP2025
   - Practiced futher for 3D modeling
   - <iframe name="imitation_arm" width="420" height="340"
    src="https://youtube.com/embed/5alonOSR5mc" title="youtube video" frameborder="0"
    allow="accelerometer;autoplay;clipboard-write; encrypted-media; gyroscope;picture-in-picture" allowfullscreen>
   </iframe>
+
+### 13SEP2025
+  - Worked on Fusion 360 to design a mobile cart 
+### 14SEP2025
+  - Working on mobile part of the robot, following are modules,
+    - Physical (design on CAD and 3D print)
+    - Components
+      - BLDC with encoder  ( reached this after considering smart servo and stepper)
+      - [eg](https://www.amazon.com/Planetary-Gearbox-Reducer-Reduction-Motors/dp/B0DZ1RF692/?_encoding=UTF8&pd_rd_w=Ibjms&content-id=amzn1.sym.4efc43db-939e-4a80-abaf-50c6a6b8c631%3Aamzn1.symc.5a16118f-86f0-44cd-8e3e-6c5f82df43d0&pf_rd_p=4efc43db-939e-4a80-abaf-50c6a6b8c631&pf_rd_r=Z0AJGPH3NX7888XQ4J0W&pd_rd_wg=uc5QF&pd_rd_r=9b7e3ac9-e306-43f0-a2db-fa9394db6fb7&ref_=pd_hp_d_atf_ci_mcx_mr_ca_hp_atf_d&th=1)
+      - Use skatting roller blades as wheels
+      - [eg](https://www.amazon.com/6-Pack-Replacement-Wheels-diameter-Bearings/dp/B0F9YMN7F3/ref=rvi_d_sccl_2/138-4207419-9176223?pd_rd_w=I1W8s&content-id=amzn1.sym.f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_p=f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_r=HJKMMM8ZT6J352RZ93PH&pd_rd_wg=ZMlxX&pd_rd_r=6e7f1d55-6691-4eb3-abee-13fa9d9a4915&pd_rd_i=B0F9YMN7F3&psc=1)
+    - autonomous mobile part, 
