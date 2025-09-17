@@ -293,3 +293,13 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
       - Use skatting roller blades as wheels
       - [eg](https://www.amazon.com/6-Pack-Replacement-Wheels-diameter-Bearings/dp/B0F9YMN7F3/ref=rvi_d_sccl_2/138-4207419-9176223?pd_rd_w=I1W8s&content-id=amzn1.sym.f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_p=f5690a4d-f2bb-45d9-9d1b-736fee412437&pf_rd_r=HJKMMM8ZT6J352RZ93PH&pd_rd_wg=ZMlxX&pd_rd_r=6e7f1d55-6691-4eb3-abee-13fa9d9a4915&pd_rd_i=B0F9YMN7F3&psc=1)
     - autonomous mobile part, 
+  
+### 15SEP2025
+  - Discussed with friend doing MS in  robotics
+    - Nvidia card or equivalent is important for a robot since it need to process streams of video feed.
+    - For mobile stepper is better than smart servo, use skateboard wheels
+    - Give enough days (at least 2 weeks) for procurement
+
+### 16SEP2025
+  - Learned basics of Fusion 360, also played around how it interacts with Prusa slicer
+  - Explored options from Prusa slicer to decide fill type , also how to print only a particular body from Fusion etc
