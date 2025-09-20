@@ -303,3 +303,13 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 ### 16SEP2025
   - Learned basics of Fusion 360, also played around how it interacts with Prusa slicer
   - Explored options from Prusa slicer to decide fill type , also how to print only a particular body from Fusion etc
+
+### 17SEP2025
+  - Worked on design of autonomous mobile
+### 18SEP2025
+  - Following desing finalized
+  - 4x4 TT + mecanum wheel + RC Receiver custom made fully cad designed and printed
+### 19SEP2025
+  - Discussed with Nitin, he said  Robotics is future
+  - Prepared schematic design for RC Transmitter and Receiver
+  - Explored good schematic design software, not found
