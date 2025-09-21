@@ -313,3 +313,9 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - Discussed with Nitin, he said  Robotics is future
   - Prepared schematic design for RC Transmitter and Receiver
   - Explored good schematic design software, not found
+
+### 20SEP2025
+  - Worked on arduino - joystick - nrf24l01 ( ... Radio waves 2.4Ghz ... )--> nrf24l01 - arduino - LCD
+  - After completed wiring and code, Rx doesn't receive anything
+  - Troubleshooting revealed that, in Tx, nrf24l01 cant get required current from 3.3V out jack from arduino 
+  - Further troubleshoot on Tx with modified code has shown that wiring to be changed with deticated supply voltage of 3.3, from code arduino can say whether nrf24l01 is health or not.
