@@ -319,3 +319,11 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - After completed wiring and code, Rx doesn't receive anything
   - Troubleshooting revealed that, in Tx, nrf24l01 cant get required current from 3.3V out jack from arduino 
   - Further troubleshoot on Tx with modified code has shown that wiring to be changed with deticated supply voltage of 3.3, from code arduino can say whether nrf24l01 is health or not.
+### 21SEP2025
+  - Prepared RPI for arduino work, since felt little uneasy using mac with arduino and circuits. A circuit error could lead to current drain.
+  - Played around arduino cli , little more mastery needed.
+### 22SEP2025
+  - Completed printing franka 2 arm
+### 23SEP2025
+  - Enabled and tested raspberry camera with RPI
+  - With a mini flask app, video could be easily streamed.
