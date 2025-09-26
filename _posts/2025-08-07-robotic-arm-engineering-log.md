@@ -327,3 +327,7 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 ### 23SEP2025
   - Enabled and tested raspberry camera with RPI
   - With a mini flask app, video could be easily streamed.
+### 24sep2025
+
+### 25sep2025
+  - configured raspberry pi 5 for arduino-cli, able to compile sktchnwith nrf24
