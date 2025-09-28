@@ -331,3 +331,8 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 
 ### 25sep2025
   - configured raspberry pi 5 for arduino-cli, able to compile sktchnwith nrf24
+
+### 26sep2025
+  - End to end tested following
+    - arduino (Tx) -- joystick -- nrf24  .......     nrf24 -- arduino(Rx)
+    - Tested completely
