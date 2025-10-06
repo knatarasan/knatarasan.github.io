@@ -36,5 +36,43 @@ tags: [wip]
     - gratified to prepare breakfast my son
 
   I said that I'm storing this message with all these context like a vector DB, then Iniyan replied that vector DB might got inspiration from how human memory works.
-    
 
+
+### 02oct2025
+
+  As I'm building parallel App for personal finance, going through a shift of mindset from traditional way of app building vs hybrid approach on app build.
+
+
+
+| Traditional APP building                 | Agent + LLM supported APP building                                             |
+| ---------------------------------------- | ------------------------------------------------------------------------------ |
+| 100% Business logic managed by developer | Hybrid approach both developer and agent                                       |
+| logic in functions                       | logic in functions : but while calling function, parameters are decided by LLM |
+| logic in config files                    | which config to choose can be decided from LLM                                 |
+| logic in database                        | very good possibility that , logic in database could be updated from LLM       |
+
+
+
+### 03oct2025
+  - What is plugin ?
+  - What is semantic plugin ?
+  - What is SK ?
+    - SK is the orchestrator of API tool calls, aka plugins
+    - SK      `Functional Module` --> `Skills`
+    - Open Ai `Skills` --> `Plugins`
+    - SK is useful too for managing multiple plugins (actions for agents)
+    - Why do you need SK ? how SK is diff from promptflow ?
+  - What is `semantic function`
+    - `semantic function` encapsulate a prompt/profile and execute through interaction with an LLM
+
+  - > WHOLE AI : sounds me like searching structure from un structure or randomness
+  - > Is there a need for Tableau , how can it be replaced by an Agent ?
+
+### 04oct2025
+- Today played around a playground to run ABTs which leverages py_tree .
+- Concepts to explore further
+  - How to apply Behaviour Tree ? What is Agentic Behaviour Tree ?
+  - How to leverage  Playground to test ABT ?
+
+### 05oct2025
+- Various other concepts similar to Behaviour Tree
