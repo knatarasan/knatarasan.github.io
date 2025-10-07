@@ -336,3 +336,15 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - End to end tested following
     - arduino (Tx) -- joystick -- nrf24  .......     nrf24 -- arduino(Rx)
     - Tested completely
+  
+### 27sep2025 to 05oct2025
+- had been working on intelligence part (ai)
+### 06oct2025
+- Building the physical assembly of RC transmitter assembly
+<img src="https://roboticchef.github.io/assets/images/2025-08-07/01-Everything.jpeg"/>
+<img src="https://roboticchef.github.io/assets/images/2025-08-07/02-rough_sketch.jpeg"/>
+<img src="https://roboticchef.github.io/assets/images/2025-08-07/03-refined_sketch.jpeg"/>
+<img src="https://roboticchef.github.io/assets/images/2025-08-07/04-PCB.jpeg.jpg"/>
+
+
+      

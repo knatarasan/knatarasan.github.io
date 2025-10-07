@@ -76,3 +76,20 @@ tags: [wip]
 
 ### 05oct2025
 - Various other concepts similar to Behaviour Tree
+
+### 06oct2025
+- How do you reduce token usage ?
+  - By split a document and use only the relevant parts .
+- I was talking to you a student, who is trying to learn agentic AI, following is the conversation
+  - student : have you seen the github repo of semantic kernel referred in "AI agents in action"
+  - myself:   do you mean the repo created by the author ?
+  - student : No microsoft's official repo `context`
+  - myself  : Oh yeah, whats in it ?
+  - student : It has some c programs ?
+  - myself  : probably why do you ask ? is it causes you stuck ?
+  - student : out of curiosity ? `context`
+- Got good idea on RAG and RAGR
+  - RAGR - Retrive Augment Generate & Remember
+    - Retrive
+      - from knowledge (vector db)  - semantic search
+      - from memory (postgresql )   - plugins
