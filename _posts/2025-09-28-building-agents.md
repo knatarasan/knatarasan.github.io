@@ -93,3 +93,33 @@ tags: [wip]
     - Retrive
       - from knowledge (vector db)  - semantic search
       - from memory (postgresql )   - plugins
+
+### 07oct2025
+- why do you need PCA ?
+- How do you reduce dimension ?
+- Splitting documents
+  - 100 char chunks (split into semantically meaningful chunks)
+  - Tokenization (split each word)
+- Got good idea on memory
+  - RAG vs RAGR
+  - embedding 
+    - TF-IDF
+    - Language model based embedding
+  - Storage
+    - vector store 
+    - vector DB (In memory vs dedicated )
+    - vector DB extension
+  - spliting
+    - Langchain based splitting, chunk size and overlap ( used not to loose meaning)
+  - Memory structure
+    - Sensory
+      - Iconic
+      - Auditory
+      - haptic
+    - Short term or context : conversational
+    - Long term memory
+      - conscious (explicit/declarative)
+        - episodic ( eg : events)
+        - semantic ( facts )
+      - unconscious ( implicit / procedural )
+        - skills

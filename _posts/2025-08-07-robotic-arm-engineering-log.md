@@ -346,5 +346,10 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 <img src="https://roboticchef.github.io/assets/images/2025-08-07/03-refined_sketch.jpeg"/>
 <img src="https://roboticchef.github.io/assets/images/2025-08-07/04-PCB.jpeg.jpg"/>
 
-
-      
+### 07oct2025
+- Continued working on 3D CAD diagraming
+- my Engineering friend gave me good idea
+  - Draw the desgin into a white paper with measures
+  - convert it into 3D ( before master elements of 3D drawing)
+    - I am lagging in this step , struggling to mirror left side to right
+    - struggling to extrude from different plane
