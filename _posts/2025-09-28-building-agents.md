@@ -123,3 +123,15 @@ tags: [wip]
         - semantic ( facts )
       - unconscious ( implicit / procedural )
         - skills
+### 08oct2025
+- Agent profile
+  - This includes following things about an agent
+    - persona
+    - memory,knowledge
+    - functions & plugins
+    - planning
+    - Evaluation & Feed back
+- why do you need promptflow ?
+    - To run and archestrate agents
+- What is a promptflow
+  - input --> prompt (in jinja2 ) --> evaluate (.py) --> output

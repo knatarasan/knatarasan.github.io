@@ -353,3 +353,7 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
   - convert it into 3D ( before master elements of 3D drawing)
     - I am lagging in this step , struggling to mirror left side to right
     - struggling to extrude from different plane
+
+### 08oct2025
+- learning fusion 360 managed holes and how to include fasteners
+- need to include external objects , should learn assembly
