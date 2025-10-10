@@ -357,3 +357,16 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
 ### 08oct2025
 - learning fusion 360 managed holes and how to include fasteners
 - need to include external objects , should learn assembly
+
+### 09oct2025
+- to master assembly understood following
+- design approaches
+  - bottom up : Solidworks ( mostly tradational )
+  - Top down : Fusion 360 ( modern )
+- Organization hierarchy in Fusion 360 ( these building blocks of Top down)
+  - Assembly
+    - Component [it is a container|own unique timeline + origin | allows reuse | like a function, once edited changes reflect all usage point]
+      - Bodies [ continuous 3D object | same co-ordinate as top level assebly] | individual copy not resuable ]
+      - Sketches
+      - Origin
+      - Sub components

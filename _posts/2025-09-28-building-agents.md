@@ -135,3 +135,20 @@ tags: [wip]
     - To run and archestrate agents
 - What is a promptflow
   - input --> prompt (in jinja2 ) --> evaluate (.py) --> output
+### 09oct
+- Axes 
+  - Y - Thinking ( allow time to think)
+  - X - Reasoning 
+- Reasoning process 
+  - Solutions
+    - Q & A prompting
+    - one shot prompting
+    - zero shot prompting
+  - Reasoning
+    - COT (Chain of Thought prompting)
+    - PC (Prompt Chaining )
+  - Evaluation
+    - Self-consistency prompting 
+    - TOT (Tree of Thought prompting)
+- Why there are 3 reasoning process
+  - It is hierachy for simple problems you get solution in direction solutioning, few go for reasoning other complex ones go until Evaluation
