@@ -370,3 +370,21 @@ Buy (costs around 25K ) vs build ( possible to build below 7k)
       - Sketches
       - Origin
       - Sub components
+### 10oct2025
+- Lessons learnt
+  - Start 3D model after practicing basics
+  - pencil sketch what you want before you start 3D modeling
+  - After finishing 3D model measure key dimensions
+### 11Oct2025
+- Transformed pencil sketch to Fusion 360 model
+
+<div class="mermaid">
+flowchart LR
+
+id[Ideas] --> ps[Pencil Sketch] 
+ps --> 3d[3D model]
+3d --> ch[Check measures]
+ch --> pr[3D print]
+</div>
+
+

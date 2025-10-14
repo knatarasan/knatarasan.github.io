@@ -152,3 +152,9 @@ tags: [wip]
     - TOT (Tree of Thought prompting)
 - Why there are 3 reasoning process
   - It is hierachy for simple problems you get solution in direction solutioning, few go for reasoning other complex ones go until Evaluation
+### 10oct
+- Planning
+  - Parallel planning : executing steps in parallel - by default LLMs does
+  - Sequential : Only limited models can doe ( Claude and OpenAI models)
+
+### 14Oct
