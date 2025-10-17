@@ -152,9 +152,21 @@ tags: [wip]
     - TOT (Tree of Thought prompting)
 - Why there are 3 reasoning process
   - It is hierachy for simple problems you get solution in direction solutioning, few go for reasoning other complex ones go until Evaluation
-### 10oct
+### 10oct2025
 - Planning
   - Parallel planning : executing steps in parallel - by default LLMs does
   - Sequential : Only limited models can doe ( Claude and OpenAI models)
 
-### 14Oct
+### 14Oct2025
+- Completed planning on an agentic system on Personal finance App
+- Planning process
+  - List down core functionalities of App
+    - Carved out steps which can only be solved by agents
+    - Steps for which agents can accelerate
+  - Agent skills
+    - Agents that want to use internal plugins/skills
+    - Agents that can use external skills 
+    - What agents need
+### 15Oct2025
+- Adding skills to agent FinAdvisor
+- 
