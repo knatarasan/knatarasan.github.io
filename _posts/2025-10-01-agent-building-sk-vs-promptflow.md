@@ -22,15 +22,68 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
  vs 
 <img src="/assets/images/2025-10-01/pf.svg" alt="PromptFlow" height="250" loading="lazy" decoding="async" style="vertical-align:middle;" />
 
-| Scenario                                                                          | Semantic Kernel                                                                                 | Prompt Flow                                                                     | Notes                                                                                                      |
-| --------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| A Request that may require branching/dynamic decision making                      | Yes  (multiple plugins could be registered to SK, at runtime SK can decide which plugin to use) | No (static has limited control logic)                                           | You can embed SK logic inside a PromptFlow node to get dynamic behavior within a flow                      |
-| Evaluation, testing, metrics, deploying generative App                            | No (Less focused on built-in evaluation)                                                        | Yes (Built-in evaluation, batch runs, metric tracking)                          | Prompt Flow can be used to  evaluate & benchmark your SK planners/plugins                                  |
-| Visual flow/ DAG, modular nodes & team visibility                                 | No (more code)                                                                                  | Yes   (flows declared in YAML , visualized, nodes can be debugged individually) | PromptFlow can be used to structure and visualize your Sk-based logic                                      |
-| You want to integrate with existing code,libraries, APIs , business logic         | Yes   ( you can call native code,integrate with your systems)                                   | No  ( native code has to be in nodes)                                           | Use SK for heavy lifting but wrap or invoke parts via PromptFlow when you want orchestration at flow level |
-| Simpler and linear prompt pipeline (eg: prompt-> model -> output -> post process) | No (overkill)                                                                                   | Yes  (good fit for simpler workflows)                                           | You may use SK funcitons/skills but flow is main driver                                                    |
-| You anticipate the logic evolving, branching , growing more complex               | Yes                                                                                             | No - Constrained for highly dynamic logic                                       | Mix them : flows + planner nodes                                                                           |
-| how to treat                                                                      | `agent brain`/orchestration engine                                                              | `flow engine` + evaluation/deployment polish                                    |
+<table>
+  <thead>
+    <tr>
+      <th>Scenario</th>
+      <th>Semantic Kernel</th>
+      <th>Prompt Flow</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A Request that may require branching/dynamic decision making
+      
+      
+      
+      </td>
+      <td>Yes (multiple plugins could be registered to SK, at runtime SK can decide which plugin to use)</td>
+      <td>No (static has limited control logic)</td>
+      <td>You can embed SK logic inside a PromptFlow node to get dynamic behavior within a flow</td>
+    </tr>
+    <tr>
+      <td>Evaluation, testing, metrics, deploying generative App</td>
+      <td>No (Less focused on built-in evaluation)</td>
+      <td>Yes (Built-in evaluation, batch runs, metric tracking)</td>
+      <td>Prompt Flow can be used to evaluate &amp; benchmark your SK planners/plugins</td>
+    </tr>
+    <tr>
+      <td>Visual flow/ DAG, modular nodes &amp; team visibility</td>
+      <td>No (more code)</td>
+      <td>Yes (flows declared in YAML, visualized, nodes can be debugged individually)</td>
+      <td>PromptFlow can be used to structure and visualize your Sk-based logic</td>
+    </tr>
+    <tr>
+      <td>You want to integrate with existing code,libraries, APIs , business logic</td>
+      <td>Yes (you can call native code, integrate with your systems)</td>
+      <td>No (native code has to be in nodes)</td>
+      <td>Use SK for heavy lifting but wrap or invoke parts via PromptFlow when you want orchestration at flow level</td>
+    </tr>
+    <tr>
+      <td>Simpler and linear prompt pipeline (eg: prompt-&gt; model -&gt; output -&gt; post process)</td>
+      <td>No (overkill)</td>
+      <td>Yes (good fit for simpler workflows)</td>
+      <td>You may use SK funcitons/skills but flow is main driver</td>
+    </tr>
+    <tr>
+      <td>You anticipate the logic evolving, branching , growing more complex</td>
+      <td>Yes</td>
+      <td>No - Constrained for highly dynamic logic</td>
+      <td>Mix them : flows + planner nodes</td>
+    </tr>
+    <tr>
+      <td>how to treat</td>
+      <td><code>agent brain</code>/orchestration engine</td>
+      <td><code>flow engine</code> + evaluation/deployment polish</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 
 ### Suggested prcatice
 - Start with prompt flow for simple prompt pipelines; if behabior becomes more dynamic/complex, introduce SK for planning/skill orcgestration inside the flow
