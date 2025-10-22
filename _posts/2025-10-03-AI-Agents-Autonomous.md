@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI-Agents-Autonomous"
+title: "AI-Agents-Autonomy"
 tags: [wip]
 ---
 
@@ -12,7 +12,7 @@ tags: [wip]
 {% endif %}
 
 ### Autonomous
-##### what is autonomous ?
+##### what is autonomy ?
 A machine or application's ability to solve a problem or handle a scenario, even when instructions to solve isn't given, the meaning of word auto is "self" or "by itself".
 
 ##### chronological history of autonomous ?
@@ -21,17 +21,22 @@ boat - wind driven -  wheel - animal  pulled carts - engines (steam to diesel) -
 ##### why am I worrying about it now ?
 LLMs makes decision now , probabilistically. When asked in human language, with right context  (  with opt memory ( memory and knowledge) , all relevant tools accessible and registered through semantic layer), it is being proven that the probability exceeds human decisions.
 
-##### An engineer's limitations ?
-So far the tool in my mastery had been a language ( eg : python) can do things what had been instructued to do , and can handle exceptions again the way I instructed. 
-  - his app can make decision only based on pre written if then else .
-  - Engineer's scope of building App is based on the tools he had
+##### Advantage of autonomy ?
+###### To overcome a user's limitation 
+Poor user had been stuck with rigid system and UI, he can only consume the information provided by the application . So he can only provide info within this limitation . He can't ask a specific question.
 
-##### What happens without autonomy in an app ?
-- The user is so limited to access info from the rigid interface. 
-- He can't ask a question 
-- The App can't provide an interesting info that it found , like to be shared with user
+###### To overcome an engineer's limitation
+So far the tool in my mastery, a computer language (eg : python ) can do things what had been instructed to do , and can handle exceptions in the way it is instructed. An application built in this way can make decisions, based on pre written instructions (through if then else ).An Engineer's scope of building App is based on the tools he had.
 
-#### In a robot , autonomacity ?
+###### To overcome system's limitation
+With conventional UI and backend, there is no way an app can provide additional info to user, when it found
+
+##### Dis-advantage of autonomy ?
+  - The engineer or builder feels out of control, since the system would eventually create its own code/logic and going to serve the user
+  - Testing : So far engineer wrote the code for scenarios and all those scenarios were tested., now the scenarios are in future , how to test them.
+  - Responsibility : So far product manager owns the business logic and engineer owns the code , now who is responsible
+  
+#### In a robot , autonomy ?
 Imagine a robot with following tasks,
   - found enemy 
     - FIGHT
@@ -50,6 +55,21 @@ Yes, it can do what it wasn't instructed to do .
     - Behavior Tree vs Vanilla "if else"
     - how can you solve a behavior tree problem with if then else ?
   - It can create tools to solve a problem ( a python code) and execute it to solve. ( this code is based on the scenario given)
+
+- Autonomy in AI breaks this barrier in the following ways,
+  - AI can create its own tools ( eg : python ), to solve a problem that the builder (engineer) is not aware of.
+  - Using un conventional decision making logics
+    - Behavior Tree
+    - FSM 
+    - Decision Tree
+    - Utility-based system
+    - Rule-based system
+    - Planning system
+    - Behavioral cloning
+    - Hierarchical Task Network (HTN)
+    - Blackboard system
+    - Genetic algorithm
+
 
 #### How to apply to my app ?
 In my Personal finance App, I can use it in following points,
