@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Agent Building: Semantic Kernel vs Promptflow"
-tags: [wip]
+tags: [tech]
 permalink: /2025/10/01/agent-building-sk-promptflow.html
 ---
 
@@ -14,9 +14,8 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
 
 ### Semantic Kernel vs Prompt Flow
 
-- As Semantic Kernel and PromptFlow are important libraries to build agents 
-- As we (myself and my buddy ) are building [A personal finance app with Agents In-Built]({% link _posts/2025-10-02-how-to-design-an-app-with-agents.md %})
--  Here I'm sharing what am I ponder where to use Semantic Kernel and where to use PromptFlow
+As Semantic Kernel and PromptFlow are important libraries to build agents.
+While building [A personal finance app with Agents In-Built]({% link _posts/2025-10-02-how-to-design-an-app-with-agents.md %}), we (myself and my buddy ) came across this scenario. I want to share what I ponder around between Semantic Kernel and PromptFlow.
 
 <img src="/assets/images/2025-10-01/sk.png" alt="Semantic Kernel" height="230" loading="lazy" decoding="async" style="vertical-align:middle;" />
  vs 
@@ -26,17 +25,17 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
   <thead>
     <tr>
       <th>Scenario</th>
-      <th>Semantic Kernel <br/><code>agent brain  / orchestration engine</code></th>
-      <th>Prompt Flow <br/><code>flow engine + evolution & deployment</code></th>
-      <th>Notes</th>
+      <th><h3>Semantic Kernel</h3> <br/><code>agent brain  </code></th>
+      <th><h3>Prompt Flow</h3> <br/><code>flow engine </code></th>
+      <th>Hybrid approach</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>A Request that may require <b>Branching / Dynamic</b>  decision making</b>
       </td>
-      <td>Yes (multiple plugins could be registered to SK, at runtime SK can decide which plugin to use)</td>
-      <td>No (static has limited control logic)</td>
+      <td><b>Yes</b> <br/>(multiple plugins could be registered to SK, at runtime SK can decide which plugin to use)</td>
+      <td><b>No</b> <br/> (static has limited control logic)</td>
       <td>You can embed SK logic inside a PromptFlow node to get dynamic behavior within a flow</td>
     
     </tr>
@@ -57,8 +56,8 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
     
     <tr>
       <td><b>Evaluation</b>, testing, metrics, deploying generative App</td>
-      <td>No (Less focused on built-in evaluation)</td>
-      <td>Yes (Built-in evaluation, batch runs, metric tracking)</td>
+      <td><b>No</b> <br/> (Less focused on built-in evaluation)</td>
+      <td><b>Yes</b> <br/> (Built-in evaluation, batch runs, metric tracking)</td>
       <td>Prompt Flow can be used to evaluate &amp; benchmark your SK planners/plugins</td>
     </tr>
     <tr>
@@ -68,15 +67,15 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
     </tr>
     <tr>
       <td><b>Visual flow</b> (eg: DAG), modular nodes &amp; team visibility</td>
-      <td>No (more code)</td>
-      <td>Yes (flows declared in YAML, visualized, nodes can be debugged individually)</td>
+      <td><b>No</b> <br/> (more code)</td>
+      <td><b>Yes</b> <br/> (flows declared in YAML, visualized, nodes can be debugged individually)</td>
       <td>PromptFlow can be used to structure and visualize your Sk-based logic</td>
     </tr>
     
     <tr>
       <td>You want to integrate with <b>existing code</b>,libraries, APIs , business logic</td>
-      <td>Yes (you can call native code, integrate with your systems)</td>
-      <td>No (native code has to be in nodes)</td>
+      <td><b>Yes</b> <br/> (you can call native code, integrate with your systems)</td>
+      <td><b>No</b> <br/> (native code has to be in nodes)</td>
       <td>Use SK for heavy lifting but wrap or invoke parts via PromptFlow when you want orchestration at flow level</td>
     </tr>
 
@@ -96,8 +95,8 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
     </tr>
     <tr>
       <td><b>Simpler</b> and <b>Linear</b> prompt pipeline (eg: prompt-&gt; model -&gt; output -&gt; post process)</td>
-      <td>No (overkill)</td>
-      <td>Yes (good fit for simpler workflows)</td>
+      <td><b>No</b> <br/> (overkill)</td>
+      <td><b>Yes</b> <br/> (good fit for simpler workflows)</td>
       <td>You may use SK funcitons/skills but flow is main driver</td>
     </tr>
     <tr>
@@ -107,8 +106,8 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
     </tr>
     <tr>
       <td>You anticipate the <b>logic evolving</b>, branching , growing more complex</td>
-      <td>Yes</td>
-      <td>No - Constrained for highly dynamic logic</td>
+      <td><b>Yes</b> <br/></td>
+      <td><b>No</b> <br/> - Constrained for highly dynamic logic</td>
       <td>Mix them : flows + planner nodes</td>
     </tr>
   </tbody>
