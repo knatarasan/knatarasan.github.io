@@ -17,9 +17,9 @@ permalink: /2025/10/01/agent-building-sk-promptflow.html
 As Semantic Kernel and PromptFlow are important libraries to build agents.
 While building [A personal finance app with Agents In-Built]({% link _posts/2025-10-02-how-to-design-an-app-with-agents.md %}), we (myself and my buddy ) came across this scenario. I want to share what I ponder around between Semantic Kernel and PromptFlow.
 
-<img src="/assets/images/2025-10-01/sk.png" alt="Semantic Kernel" height="230" loading="lazy" decoding="async" style="vertical-align:middle;" />
+<img src="/assets/images/2025-10-01/sk.png" alt="Semantic Kernel" height="200" loading="lazy" decoding="async" style="vertical-align:middle;" />
  vs 
-<img src="/assets/images/2025-10-01/pf.svg" alt="PromptFlow" height="250" loading="lazy" decoding="async" style="vertical-align:middle;" />
+<img src="/assets/images/2025-10-01/pf.svg" alt="PromptFlow" height="220" loading="lazy" decoding="async" style="vertical-align:middle;" />
 
 <table>
   <thead>
