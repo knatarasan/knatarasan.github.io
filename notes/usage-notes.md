@@ -2,7 +2,7 @@
 - [How to run jekyll locally](https://michaelriedl.com/2021/06/11/testing-jekyll.html)
 
 - #### to run local site
-`bundle exec jekyll serve`
+`bundle exec jekyll serve --livereload`
 
 - #### to check size
  `git count-objects -vH`
