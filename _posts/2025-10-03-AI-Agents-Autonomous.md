@@ -11,25 +11,23 @@ tags: [wip]
 </div>
 {% endif %}
 
-### Autonomous
-##### what is autonomy ?
-A machine or application's ability to solve a problem or handle a scenario, even when instructions to solve isn't given, the meaning of word auto is "self" or "by itself".
+Autonomy is a machine or application's ability to solve a problem or handle a scenario, even when instructions to solve, isn't given. The meaning of word auto is "self" or "by itself".
 
-##### chronological history of autonomous ?
-boat - wind driven -  wheel - animal  pulled carts - engines (steam to diesel) - machines ( make decision , gears and timing wheels ) - electronics - computer - LLM model
+The history would evolved from Boats, Wheels, animal carts and into steam. From steam mechanical components were taking decisions like, timer cam, timers, speed governor (used in steam engine, when speed reduces, governor opens up for more steam to increase speed, and wise versa). 
 
-##### why am I worrying about it now ?
-LLMs makes decision now , probabilistically. When asked in human language, with right context  (  with opt memory ( memory and knowledge) , all relevant tools accessible and registered through semantic layer), it is being proven that the probability exceeds human decisions.
+Started from electrical circuits, the era of electronics began and pushed automation to greater extent and peaked with computers. Started with machine learning, as of today LLMs revolutionized, by making human like decisions.
+
+Even though LLMs works with probabilistic model, with right context, i.e, with optimum memory (both memory and knowledge), and relevant tools accessible and registered through semantic layer, it has been evident that decisions made by agents are on par with human decisions and sometimes  exceeds human level too.
 
 ##### Advantage of autonomy ?
 ###### To overcome a user's limitation 
-Poor user had been stuck with rigid system and UI, he can only consume the information provided by the application . So he can only provide info within this limitation . He can't ask a specific question.
+Poor users has been stuck with rigid system and UI, he can only consume the information provided by the application and he can provide info within the limitation. He can't ask a specific question.
 
 ###### To overcome an engineer's limitation
 So far the tool in my mastery, a computer language (eg : python ) can do things what had been instructed to do , and can handle exceptions in the way it is instructed. An application built in this way can make decisions, based on pre written instructions (through if then else ).An Engineer's scope of building App is based on the tools he had.
 
 ###### To overcome system's limitation
-With conventional UI and backend, there is no way an app can provide additional info to user, when it found
+With conventional UI and backend, there is no way an app can provide additional info to user, when it can.
 
 ##### Dis-advantage of autonomy ?
   - The engineer or builder feels out of control, since the system would eventually create its own code/logic and going to serve the user
@@ -72,7 +70,7 @@ Yes, it can do what it wasn't instructed to do .
 
 
 #### How to apply to my app ?
-In my Personal finance App, I can use it in following points,
+As I'm building an AI agent powered Personal finance App, I'm planning to use in the following scenarios,
   - User uploads a transactions file , the parser failed to process it ( due to format mismatch)
   - Users asks an analytical question , where there isn't a logic written in app to answer or show visual.
   - Agent come up with an analysis, insight or suggested action neither asked by the user nor triggered from the business logic.
