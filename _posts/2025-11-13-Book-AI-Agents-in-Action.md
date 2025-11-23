@@ -44,8 +44,93 @@ As the era of Agents has started, wanted master AI Agents by building a customer
   flowchart LR
   igb[Identify goal behaviour] --> drq[Determine required actions ] --> ic[Identify the conditions] --> dmc[Determine the mode of communication] --> ct[Construct the tree]
 - Nexus : worth master nexus code
-- Agent memory and knowledge : What a beautiful depicted chapter. One of the best structure given for RAG (which is core of an Agent). In this chapter Micheal introduces RAG in a right way , what is vector , what is the importance of conventional SQL in agentic system (as against the trend talks predominantly about vector). basic RAG. Best explanation on document embeddings. starting from TF-IDF and advanced embedding techniques. Nice depiction of visual examining of vector db.
-
+- Agent memory and knowledge : What a beautiful depicted chapter. One of the best structure given for RAG (which is core of an Agent). 
+  - In this chapter Micheal introduces RAG in a right way , what is vector , what is the importance of conventional SQL in agentic system (as against the trend talks predominantly about vector). basic RAG.
+  - RAGR : Retrieval Augmented Generation & Remember
+    - The last Remember is what the system generated as part of RAG is remembered.
+  - Semantic search
+    - Search from given 8 sentences , find the closet match semantically
+      - TF-IDF : very simple and match is based on word frequency
+      - LLM based embeddings : embedded value is based on semantic , so sentences with similar meaning stored close by in vector DB
+    -  Best explanation on document embeddings. starting from TF-IDF and advanced embedding techniques. Nice depiction of visual examining of vector db.
+    -  Chroma DB : Nice In memory vector DB
+    -  LangChaing : what is it ?
+       -  CharacterTextSplitter : Nice TextSplitter
+       -  langchain.embeddings.OpenAIEmbeddings 
+  - Amazing discussion about memory for Agent
+    - Memory classification
+      - sensory
+        - touch/haptic
+        - visual/iconic
+        - auditory/echoic
+      - short-term (contextual)
+        - conversational memory and RAG
+      - long-term
+        - explicit/conscious
+          - life events
+          - facts/concepts
+        - implicit/unconscious
+  - Semantic memory and applications to semantic, episodic and procedural memory
+  - Memory and knowledge compression
+- Prompt (with Prompt flow)
+  - Prompt Engineering
+    - Basics 
+      - Give clear instructions
+    - Memory
+      - Provide reference text
+      - Use external data
+    - Planning
+      - Split task into sub tasks
+      - Give models time ( to Think )
+    - Evaluation
+      - Test changes systematically
+  - Define Agent profile : why ? #TODO
+  - prompt flow
+    - Structure
+      - Input
+      - jinja2 : model
+      - python : your logic
+      - library : inbuilt library 
+      - output
+    - Rubrics and Grouding
+      - Identify the purpose and objectives
+      - Define criteria
+      - Create a scale
+      - provide descriptions
+      - Apply the rubric
+      - Calc total score
+      - Review, revise and iterate
+    - Comparing profiles
+- Agent reasoning and evaluation
+  - An elobration of Planning .
+    - X axis : Split complex tasks into simpler subtasks
+    - Y axis : Give models to "Think"
+  - Direct solution prompting
+    - Question and Answer prompting
+    - Few-shot prompting
+      - one-shot
+      - few-shot
+      - zero-shot
+    - Extracting generalities with zero-shot prompting
+  - Reasoning in prompt engineering
+    - REASONING AND PLANNING 
+      - It is explained with nice example on time travel
+    - Chain of thought prompting
+    - Zero-shot CoT prompting
+    - Step by step with prompt chaining
+  - Employing evaluation for consistent solutions
+    - Evaluating self-consistency prompting
+    - Evaluating tree of thought prompting
+- Agent planning and feedback
+  - Planning : the essential tool for all agents/assistants
+  - Understanding the sequential planning process
+  - Building a sequential planner
+  - Reviewing a stepwise planner : OpenAI strawberry
+  - Applying planning,reasoning evaluation and feedback to assistant and agentic systems.
+    - Application of assistant/agentic planning
+    - Application of assistant/agentic reasoning
+    - Application of evaluation to agentic systems
+    - Application of feedback to agentic/assitant applications
   
   </div>
 
