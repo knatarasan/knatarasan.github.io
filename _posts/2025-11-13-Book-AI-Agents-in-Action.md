@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Book review : AI Agents Action"
+title: "My experienve with the book: AI Agents in Action by Michael Lanham"
 tags: [wip]
 ---
 
@@ -11,162 +11,294 @@ tags: [wip]
 </div>
 {% endif %}
 
-As the era of Agents has started, wanted master AI Agents by building a customer facing APP ( started using by myself and my family), after skim through few books landed on this book <b>AI Agents in Action<b/>  by <b>Micheal Lanham.</b> After reading this book for 2 iteration and working on examples, I came to a conclusion this is best book to learn AI Agents and build it for practical purpose.
-
-#### Overview of the book
-
-- He starts with amazing introduction of AI Agent, defining an agent in a rational way, with this I start looking an agent as a person like. It (let me use the pronuoun "It" as of 2025) has a personanlity or persona. It can remember facts and mastery(is it a tool).It has tools to use . it can reason and eveluate. It can plan and take feedback. #TODO Include a picture by mapping Figure 1.3 mapped with tools. Author gives motivation how an agent era would look like  #Exand it
-- As LLM is backbone nope, a genie knows almost everything what human kind gathered , if you talk to him in his language (Prompting), you would get right answer 90% of the time . Author gives famous LLMs , how to interact with it through API . How to run local LLMs. A nice structure on Prompting how to write good prompt (2025s skill like coding over 2000s). Types of LLM and how to choose one for your need. You would choose a LLM model based these criteria : Model Performance , Model Parameters, Training Input Training Method, Context Token Size , Model Speed, Model Cost # TODO include a picture here with examples.
-- GPT Assistants : Gives a general intro to the world of Agent. As we are going to build autonomous much reliable agents. GPT assistants would prepare us ( model builders) for a hands on approach to tame  LLMs  . Also talks about extending an assistant's knowledge using file uploads. #TODO elobrate usecases for knowledge assistant : search, compare , contrast , ordering , classification and generation
-- multi agent system. more than an agent with different persona, they interact either in group chat or in a hierarchical chat to solve a problem. How to use autogen ( a opens ource library to deal with multi agent). introduces CrewAI a parallel to autogen. how to use agentOps
-- From an Agent perspective, Actions is an important component especially to implement RAG. ChatGPT plugin is basic implementation of Agent Action., Author Micheal depicts interaction between LLM and a plugin.
-  - first_function : Gives a taste of how LLM can choose to call a function , and call with which params, uses `openai` package.
-  - parallel_functions : how to use `OpenAI.chat.completions.create` which returns `tool_calls` which has info which function to call and how to call.
-  - Semantic Kernel 
-    - sk_connecting : How a semantic function can be created .how to use sk.kernel.add_service
-    - sk_context_variable : How to write a prompt for LLM with _variable, which gets value during the call_.
-    - Synergizing semantic and native functions
-      - sk_first_skill : # TODO check one more time
-        - Create a plugin under plug in directory 
-        - You pass a list to plugin, kernel uses this list and LLM to get a merged output
-      - sk_native_functions : how to call a native function when required , decision is made by LLM.
-      - sk_semantic_native_functions: embedding native functions within semantic functions
-    - SK as an interactive service agent : Gives nice taste on how to implement an interactive service with Semantic Kernel.
-- Building Autonomous : I personally felt a very exciting chapter, as software engineer, we come from a concrete world of hand written , fixed business rules for an application. Autonomy on business rule during runtime is hard to face reality, also thrilling.
-  - `behavior tree`, Micheal introduces behavior tree, I played around my own behavior trees with a robot example, from which understood the power of behavior tree. You may end up writing lot of if thens if you dont use behavior tree. At first it is hard to get into behavior tree in , understanding,  motivation and apprecitaion for behavior tree. `robot_behavior_tree.py` this example helped me.
-  - Also he gives an execellent comparision chart of various AI control systems and which can be leveraged for AI Agents.
-    - `Finite state Machine`, `Decision tree`, `utility-based-system`,`Rule-based-system`,`Planning system`,`Behavior cloning`,`Hierarchical Task Network`,`Blackboard system` and `Genetic algorithm`.
-  - GPT Assistants playground : It needs efforts to understand but worth mastering, especially when you are moving towards autonomous agents.
-  - Behavior Tree for Coding challenge and X post from youtube : I'm not quite convinced using behavior tree for coding challenge and autonomous X post. In my opinion, behavior tree is good where you need run multiple if thens with time tick. tick size can vary from millisecond to hours or even days.
-  - Behavior Tree for conversational multi agent : BT would be effective agent conversation, as it involves feedback, reasoning and emergent behaviors.
-  - Agentic Behavior Tree with back chaining : Its an interesting concept for top down approach for problems. 
-  <div class="mermaid">
-  flowchart LR
-  igb[Identify goal behaviour] --> drq[Determine required actions ] --> ic[Identify the conditions] --> dmc[Determine the mode of communication] --> ct[Construct the tree]
-- Nexus : worth master nexus code
-- Agent memory and knowledge : What a beautiful depicted chapter. One of the best structure given for RAG (which is core of an Agent). 
-  - In this chapter Micheal introduces RAG in a right way , what is vector , what is the importance of conventional SQL in agentic system (as against the trend talks predominantly about vector). basic RAG.
-  - RAGR : Retrieval Augmented Generation & Remember
-    - The last Remember is what the system generated as part of RAG is remembered.
-  - Semantic search
-    - Search from given 8 sentences , find the closet match semantically
-      - TF-IDF : very simple and match is based on word frequency
-      - LLM based embeddings : embedded value is based on semantic , so sentences with similar meaning stored close by in vector DB
-    -  Best explanation on document embeddings. starting from TF-IDF and advanced embedding techniques. Nice depiction of visual examining of vector db.
-    -  Chroma DB : Nice In memory vector DB
-    -  LangChaing : what is it ?
-       -  CharacterTextSplitter : Nice TextSplitter
-       -  langchain.embeddings.OpenAIEmbeddings 
-  - Amazing discussion about memory for Agent
-    - Memory classification
-      - sensory
-        - touch/haptic
-        - visual/iconic
-        - auditory/echoic
-      - short-term (contextual)
-        - conversational memory and RAG
-      - long-term
-        - explicit/conscious
-          - life events
-          - facts/concepts
-        - implicit/unconscious
-  - Semantic memory and applications to semantic, episodic and procedural memory
-  - Memory and knowledge compression
-- Prompt (with Prompt flow)
-  - Prompt Engineering
-    - Basics 
-      - Give clear instructions
-    - Memory
-      - Provide reference text
-      - Use external data
-    - Planning
-      - Split task into sub tasks
-      - Give models time ( to Think )
-    - Evaluation
-      - Test changes systematically
-  - Define Agent profile : why ? #TODO
-  - prompt flow
-    - Structure
-      - Input
-      - jinja2 : model
-      - python : your logic
-      - library : inbuilt library 
-      - output
-    - Rubrics and Grouding
-      - Identify the purpose and objectives
-      - Define criteria
-      - Create a scale
-      - provide descriptions
-      - Apply the rubric
-      - Calc total score
-      - Review, revise and iterate
-    - Comparing profiles
-- Agent reasoning and evaluation
-  - An elobration of Planning .
-    - X axis : Split complex tasks into simpler subtasks
-    - Y axis : Give models to "Think"
-  - Direct solution prompting
-    - Question and Answer prompting
-    - Few-shot prompting
-      - one-shot
-      - few-shot
-      - zero-shot
-    - Extracting generalities with zero-shot prompting
-  - Reasoning in prompt engineering
-    - REASONING AND PLANNING 
-      - It is explained with nice example on time travel
-    - Chain of thought prompting
-    - Zero-shot CoT prompting
-    - Step by step with prompt chaining
-  - Employing evaluation for consistent solutions
-    - Evaluating self-consistency prompting
-    - Evaluating tree of thought prompting
-- Agent planning and feedback
-  - Planning : the essential tool for all agents/assistants
-  - Understanding the sequential planning process
-  - Building a sequential planner
-  - Reviewing a stepwise planner : OpenAI strawberry
-  - Applying planning,reasoning evaluation and feedback to assistant and agentic systems.
-    - Application of assistant/agentic planning
-    - Application of assistant/agentic reasoning
-    - Application of evaluation to agentic systems
-    - Application of feedback to agentic/assitant applications
-  
-  </div>
-
-- He structured the book
-    - Introduction
-    - LLM : happenings 
-    - Multi-Agent
-    - Agent Actions
-    - Autonomous 
-      - Behaviour Tree, FSM
-      - He has built a playground
-    - Assembling
-    - Agent Memory
-    - Platform to implement Agent : Prompt Flow | Auto gen
-    - Agent Reasoning and evaluation
-    - Agent Planning and Feedback
-
-#### nucleous : It is best book 
-  - this book explains,  what is an Agent, composition of an Agent, how to build the pieces ,how to test the pieces.
-  - He took an example , grows it with various techniques.
-  - He wrote this book by building agents and using it for this book
-  - He explains RAG with an working sample
-  - He explains memory in practical way (instead of use vector DB approach), beautifully splits difference between , vector DB and SQL and where to use what. Using detailed examples helps us to understand what is vector DB ? how the internals works
-
-#### How to prove
-  - evidence
-    - Structure of the book : Definition and Agent, hands on examples to see that how various components works
-    - expand points from nucleus 
-  - proving events : I'm building an APP with agents that I need
-  - Rejections 
-    - When discussed about agents, my friends who are dealing with agents 
-      - shared same approach : build MCP server   
-      - Enterprise Architects talks in scaring language : Agent would open up security threat ( I'm not refusing but , until building agent to solve an inital problem of a company this is too early to talk  )
+![image info]({{ site.image_base }}/2025-11-13/ai-agents-action.jpg)
 
 
-#### criticism
-- A human drawn picture on definition of Agent
-- LLM how to run locally using llama 
-#### conclusion
+As in the era of Agents, I wanted to build a customer-facing app (which is already being used by myself and my family). After skimming through a few books, I landed on **AI Agents in Action** by **Michael Lanham**.  
+After reading this book for two iterations and working through the examples, I came to a clear conclusion: **this is the best book to learn AI Agents and build them for practical purposes.**
+
+---
+
+## Overview of the Book
+
+The author starts with an amazing introduction to AI Agents, defining an agent in a very rational and grounded way.  
+After this chapter, I started looking at an agent almost like a person.  
+Let me use the pronoun “It” (as of 2025).
+
+An agent:
+
+- has a personality / persona  
+- can remember facts  
+- has mastery (tools)  
+- can reason and evaluate  
+- can plan and take feedback  
+
+This mental model completely changed how I think about agents.  
+The author also motivates what the agent era would look like—a world where software is no longer just deterministic rules, but adaptive, reasoning systems that work alongside humans.
+
+LLMs are the backbone, but they are not magic.  
+Think of an LLM as a genie that knows almost everything humankind has gathered, and if you talk to it in its language (prompting), you will get the right answer 90% of the time.
+
+The author explains:
+
+- popular LLMs  
+- how to interact with them through APIs  
+- how to run local LLMs  
+- a nice structured approach to prompting, which honestly feels like a 2025 skill, similar to how coding was a 2000s skill  
+
+He also explains types of LLMs and how to choose one based on:
+
+- Model performance  
+- Model parameters  
+- Training input and training method  
+- Context token size  
+- Model speed  
+- Model cost  
+
+This section gives clarity instead of hype.
+
+---
+
+## GPT Assistants
+
+This chapter gives a practical introduction to the world of agents.  
+Since we are moving toward building autonomous and reliable agents, GPT Assistants prepare us (model builders) with a hands-on way to tame LLMs.
+
+The author also explains how to extend assistant knowledge using file uploads.  
+This is extremely powerful for building knowledge assistants, such as:
+
+- search  
+- compare  
+- contrast  
+- ordering  
+- classification  
+- content generation  
+
+---
+
+## Multi-Agent Systems
+
+This chapter introduces systems where more than one agent, each with a different persona, collaborates to solve a problem.
+
+Agents can interact:
+
+- in group chat  
+- in hierarchical conversations  
+
+The author introduces:
+
+- AutoGen (an open-source library for multi-agent systems)  
+- CrewAI as a parallel approach  
+- AgentOps for observing and managing agents  
+
+---
+
+## Agent Actions
+
+From an agent’s perspective, actions are critical, especially for implementing RAG.  
+ChatGPT plugins are explained as a basic implementation of agent actions.
+
+Michael clearly depicts how an LLM interacts with a plugin, and then walks through practical examples:
+
+##### first_function
+Shows how an LLM decides when to call a function and with which parameters, using the openai package.
+
+##### parallel_functions
+Explains how OpenAI.chat.completions.create returns `tool_calls`, which tell us:
+
+- which function to call  
+- how to call it  
+
+---
+
+### Semantic Kernel
+
+This is one of the strongest sections of the book.
+
+##### sk_connecting
+Shows how to create a semantic function and connect it using `sk.kernel.add_service`.
+
+##### sk_context_variable
+Explains how to write prompts with variables that get resolved at runtime.
+
+##### Synergizing semantic and native functions
+
+##### sk_first_skill
+- Create a plugin under the plugin directory  
+- Pass a list to the plugin  
+- The kernel and LLM collaborate to generate a merged output  
+
+##### sk_native_functions
+Shows how an LLM can decide when to call native functions.
+
+##### sk_semantic_native_functions
+Embedding native functions inside semantic functions.
+
+---
+
+### Semantic Kernel as an Interactive Service Agent
+
+This section gives a very practical taste of building real interactive services or so called conversational AI using SK.
+
+---
+
+## Building Autonomous Agents
+
+Personally, this was one of the most exciting chapters.
+
+As a software engineer, we came from a world of building concrete systems using concrete logic and deliver it with concrete testing. 
+But it is both scary and thrilling to build a system with a probably concrete element ( LLM ) and pushing it towards autonomy.  I believe the traditional pattern of 70% effort to build a system and 30% effort to test would change in agentic building as 30% effort to build and 70% effort to test . Here I didn't mean software testing , but more functional testing with all functional edge cases.
+
+
+### Behavior Trees
+
+Michael introduces behavior trees, and I experimented with my own robot examples.  
+That’s when I truly understood their power.
+
+Without behavior trees, you end up writing endless if-else chains.  
+At first, behavior trees are hard to appreciate, but this example [robot_behavior_tree.py]({{ site.image_base }}/2025-11-13/robot_behavior_tree.py) makes it clear.
+
+The author provides an excellent comparison chart of AI control systems:
+
+- Finite State Machine  
+- Decision Tree  
+- Utility-based System  
+- Rule-based System  
+- Planning System  
+- Behavior Cloning  
+- Hierarchical Task Network  
+- Blackboard System  
+- Genetic Algorithm  
+
+---
+
+## GPT Assistants Playground
+
+Takes effort to understand, but it’s worth mastering—especially for autonomous agents.
+
+---
+
+## Behavior Tree for Coding Challenges and X Posts
+
+I’m not fully convinced here.  
+In my opinion, behavior trees shine where time-based ticks matter—milliseconds, minutes, hours, or even days.
+
+---
+
+## Behavior Tree for Conversational Multi-Agent Systems
+
+This makes more sense, as conversation naturally involves feedback, reasoning, and emergent behavior.
+
+---
+
+## Agentic Behavior Tree with Back-Chaining
+
+A very interesting top-down problem-solving approach.
+
+---
+
+## Nexus
+
+You may focus on Nexus if you want to build agentic App by your self without frameworks.
+The code is dense but powerful, and it ties together many concepts from earlier chapters.
+
+---
+
+## Agent Memory and Knowledge
+
+This is one of the most beautifully written chapters in the book.
+
+The author introduces RAG the right way:
+
+- what vectors are  
+- why SQL still matters in agentic systems  
+- when vector DBs make sense and when they don’t  
+
+### RAGR – Retrieval Augmented Generation & Remember
+
+The “Remember” part is critical—the system stores what it generates.
+
+### Semantic Search
+Motivation of embedding vs TF-IDF is depicted very well.
+
+- TF-IDF: word-frequency based  
+- Embeddings: meaning-based, stored close in vector space  
+
+I played around more examples to get visual idea of how values stored in vector databases, author lead us with right points.
+
+- ChromaDB as an in-memory vector DB  
+- LangChain  
+- CharacterTextSplitter  
+- OpenAIEmbeddings  
+
+---
+
+## Agent Memory Types
+
+- Sensory (touch, visual, auditory)  
+- Short-term (context, conversation, RAG)  
+- Long-term  
+  - Explicit (facts, life events)  
+  - Implicit (procedural memory)  
+
+Memory compression and practical trade-offs are explained very clearly.
+
+---
+
+## Prompting, Reasoning, Planning, and Evaluation
+
+This section ties everything together:
+
+- Prompt engineering  
+- Prompt flow  
+- Agent profiles (why they matter)  
+- Reasoning and planning  
+- Chain-of-thought  
+- Evaluation techniques  
+- Feedback loops  
+
+It feels like engineering discipline finally applied to AI.
+
+---
+
+## How the Book Is Structured
+
+- Introduction  
+- LLM Fundamentals  
+- Multi-Agent Systems  
+- Agent Actions  
+- Autonomous Systems  
+- Assembling Agents  
+- Agent Memory  
+- Platforms (Prompt Flow, AutoGen)  
+- Reasoning & Evaluation  
+- Planning & Feedback  
+
+---
+
+## Nucleus: Why This Is the Best Book
+
+- It explains what an agent is, what it’s made of, and how to build each part  
+- A single example grows throughout the book  
+- The author clearly built agents while writing this book  
+- RAG is explained with working samples  
+- Memory is explained practically, not just “use a vector DB”  
+
+### Proof
+
+- The book structure itself is evidence  
+- I’m actively building an app with agents using these concepts  
+- Conversations with others working on agents confirm the same approach  
+
+Some enterprise architects talk in a scary language about security risks.  
+I’m not denying them—but until we build agents that solve real problems, that discussion feels premature.
+
+
+
+---
+
+## Conclusion
+
+**AI Agents in Action** is not just a book—it’s a playbook.  
+If you want to understand agents deeply, build them practically, and reason about them correctly, this book is hard to beat.
+
