@@ -78,11 +78,17 @@ Explore options to use local LLM model
 - Retrospecting discussions so far, demo feed backs.
 - Understood most of presentations are from an Engineer to Engieer
 - working on transistion from Engineer to Founder
-|Engineers|Founders|
-|--------|--------|
-|Optimize correctness|Optimize learning|
-|Avoid mistakes|Place smart bets|
-|Explain system|Frame outcome|
-|Build confidence from mastery|Build confidence from reps (repetitions )|
-|Wait for readiness|Act while unsure|
-|Be precise, Be correct, Have answers|Be social, Be emotional, Be ambiguous|
+
+| Engineers                            | Founders                                  |
+| ------------------------------------ | ----------------------------------------- |
+| Optimize correctness                 | Optimize learning                         |
+| Avoid mistakes                       | Place smart bets                          |
+| Explain system                       | Frame outcome                             |
+| Build confidence from mastery        | Build confidence from reps (repetitions ) |
+| Wait for readiness                   | Act while unsure                          |
+| Be precise, Be correct, Have answers | Be social, Be emotional, Be ambiguous     |
+
+### 09FEB2026
+- Revising notes taken with CISOs and SIEM ( sales consultant)
+- This is important [soc-automation-splunk](https://www.splunk.com/en_us/blog/learn/soc-automation.html)
+- Exploring possibilities of initial wedge to approach MSSPs or CISOs
