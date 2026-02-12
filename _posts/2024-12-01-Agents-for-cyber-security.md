@@ -92,3 +92,22 @@ Explore options to use local LLM model
 - Revising notes taken with CISOs and SIEM ( sales consultant)
 - This is important [soc-automation-splunk](https://www.splunk.com/en_us/blog/learn/soc-automation.html)
 - Exploring possibilities of initial wedge to approach MSSPs or CISOs
+
+### 10FEB2026
+- Reviewed notes from CISO.
+- Planned for next steps , esp next 1 or 2 months predominantly focused on outreach on discovery mode.
+
+### 11FEB2026
+- [Attended cybersecurity summit silicon valley 2026](https://cyberriskalliance.swoogo.com/silicon-valley-feb-2026), my overview
+  - AI, Agentic AI has been mainstream in cyber security
+  - Israeli teams get attention ( what % of successful cyber sec companies are Israel based)
+    - Two companies on penetration testing
+  - Proper formation of following stuff would lead a successful path
+    - A Wedge (very important most of the booths that I've visited, have collection of features)
+    - Design partner
+    - A repeatable Sales motion in place
+  - 30% of presentations are great, Yes remaining 70% unplanned and just time fillers
+  - Met Kathy and get connected
+  - Asked input from Shreyas(Co-founder of Amplifier)
+  - Two companies working False positive Noise reduction
+    
